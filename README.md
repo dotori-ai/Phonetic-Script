@@ -84,7 +84,7 @@ words. That list is the Texas dialect, written down.
 | Spanish tap vs trill ("but" vs "dog") | pero / perro | ˈpeɾo / ˈpero |
 | Spain vs Latin America | gracias | ˈɡɾaθjas / ˈɡɾasjas |
 | English *sh* vs *s* | she / see | ʃiː / siː |
-| English *f* and *th* | coffee · think | ˈkɑfi · θɪŋk |
+| English *f* and *th* | coffee · think | ˈkɔfi · θɪŋk |
 | Mandarin tone ("mother" vs "horse") | 妈 / 马 | ma˥ / ma˨˩˦ |
 
 Ordinary spelling merges many of these: one spelling for two dialects, or one letter for
