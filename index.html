@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phonetic Script</title>
+<meta name="description" content="Extended Korean (EK): one Hangul-based script that writes how any language sounds.">
+<style>
+@font-face { font-family: "EK Sans Block"; src: url(fonts/EKSansBlock-Regular.woff2) format("woff2"); }
+:root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --rule:#e4e1d8; --card:#ffffff; --accent:#8a5a2b; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#151513; --fg:#ecebe6; --muted:#a19f97; --rule:#2e2d29; --card:#1d1c1a; --accent:#d9a46a; } }
+:root[data-theme="dark"] { --bg:#151513; --fg:#ecebe6; --muted:#a19f97; --rule:#2e2d29; --card:#1d1c1a; --accent:#d9a46a; }
+* { box-sizing:border-box }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width:960px; margin:0 auto; padding:48px 16px 64px; }
+h1 { font-size:clamp(28px,5vw,40px); margin:0 0 8px; letter-spacing:-0.01em }
+h2 { font-size:20px; margin:48px 0 12px }
+.lede { color:var(--muted); max-width:640px; margin:0 }
+.ek { font-family:"EK Sans Block", "Noto Sans KR", sans-serif; }
+.hero { font-size:clamp(22px,4vw,30px); margin:28px 0 4px; color:var(--accent); overflow-wrap:anywhere }
+.hero-src { color:var(--muted); font-size:14px; margin:0 }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin-top:16px }
+.card { display:block; background:var(--card); border:1px solid var(--rule); border-radius:10px; padding:16px; color:inherit; text-decoration:none }
+.card:hover, .card:focus-visible { border-color:var(--accent) }
+.card h3 { margin:0 0 4px; font-size:16px }
+.card p { margin:0; color:var(--muted); font-size:13px }
+.sample { margin-top:10px; font-size:18px; color:var(--accent); overflow-wrap:anywhere }
+.table-wrap { overflow-x:auto; border:1px solid var(--rule); border-radius:10px; background:var(--card) }
+table { border-collapse:collapse; width:100%; font-size:14px }
+th, td { text-align:left; padding:8px 12px; border-bottom:1px solid var(--rule); white-space:nowrap }
+tr:last-child td { border-bottom:0 }
+th { color:var(--muted); font-weight:500 }
+td.ek { font-size:20px }
+td.ipa { font-family:ui-monospace, Menlo, monospace; color:var(--muted) }
+footer { margin-top:56px; padding-top:16px; border-top:1px solid var(--rule); color:var(--muted); font-size:13px }
+a { color:var(--accent) }
+</style>
+</head>
+<body>
+<main>
+<h1>Phonetic Script</h1>
+<p class="lede">Extended Korean (EK) writes how any language <em>sounds</em> in one Hangul-based script. Standard Hangul covers what Korean already has, and a small set of systematic marks covers the sounds it doesn't, like <i>f</i>, <i>v</i>, <i>th</i> and the Spanish tap.</p>
+<div class="hero ek">플리즈 칼 스󱇈라 애스크 허 투 브링 디즈 󱆤즈 위󱆥 허 󰒆럼</div>
+<p class="hero-src">“Please call Stella. Ask her to bring these things with her from…” as read by a speaker from Carthage, Texas</p>
+
+<h2>Try it</h2>
+<div class="grid"><a class="card" href="editor/"><h3>Word editor</h3><p>Look up how EK writes each English and Spanish word, type the spelling you hear, and export it for review.</p></a><a class="card" href="examples/texas/"><h3>Texas English</h3><p>Texas English — Carthage, Texas · female, 48, native english · human recording</p><div class="ek sample">플리즈 칼 스󱇈라 애스크 허 투 브링 디즈 …</div></a><a class="card" href="examples/general-american/"><h3>General American</h3><p>General American — Delaware, Ohio · female, 41, native english · human recording</p><div class="ek sample">플리즈 컬 스󱇈라 애스크 허 러 브링 디즈 …</div></a><a class="card" href="examples/spanish/"><h3>Spanish · Español</h3><p>King Sejong passage · synthetic voice (MMS-TTS), Latin American reading</p><div class="ek sample">엘 󰒥이 세종 엘 그란데 󱆡에 엘 쿠아르토 …</div></a></div>
+
+<h2>Same paragraph, two American voices</h2>
+<p class="lede">Both speakers read the same text. These are the words where EK, written from what each speaker actually said, comes out differently. That difference is the dialect, written down.</p>
+<div class="table-wrap" style="margin-top:12px"><table>
+<thead><tr><th>Word</th><th>Texas EK</th><th>General American EK</th><th>Texas IPA</th><th>General American IPA</th></tr></thead>
+<tbody><tr><td>call</td><td class="ek">칼</td><td class="ek">컬</td><td class="ipa">kʰɑl</td><td class="ipa">kʰɑlˠ</td></tr><tr><td>to</td><td class="ek">투</td><td class="ek">러</td><td class="ipa">tʰŭ</td><td class="ipa">ɾə</td></tr><tr><td>things</td><td class="ek">󱆤즈</td><td class="ek">싱즈</td><td class="ipa">θĩŋz</td><td class="ipa">s̪ɪ̃ŋz̥</td></tr><tr><td>of</td><td class="ek">어󰓖</td><td class="ek">어󰒆</td><td class="ipa">ʌv̥</td><td class="ipa">əf</td></tr><tr><td>snow</td><td class="ek">스노</td><td class="ek">쉬노</td><td class="ipa">snoʊ</td><td class="ipa">ʃnoʊ</td></tr><tr><td>and</td><td class="ek">앤드</td><td class="ek">언</td><td class="ipa">ænd</td><td class="ipa">ə̃n</td></tr><tr><td>for</td><td class="ek">󰕒</td><td class="ek">󱆧</td><td class="ipa">fɔɹ</td><td class="ipa">fɚ</td></tr><tr><td>and</td><td class="ek">앤드</td><td class="ek">언</td><td class="ipa">æːnd</td><td class="ipa">ə̃n</td></tr><tr><td>can</td><td class="ek">켄</td><td class="ek">컨</td><td class="ipa">kʰɛ̃n</td><td class="ipa">kʰə̃n</td></tr><tr><td>these</td><td class="ek">디즈</td><td class="ek">디스</td><td class="ipa">ðiz</td><td class="ipa">ðis</td></tr><tr><td>into</td><td class="ek">󱇎러</td><td class="ek">󱇎터</td><td class="ipa">ɪnɾə</td><td class="ipa">ɪ̃ntə</td></tr><tr><td>and</td><td class="ek">앤</td><td class="ek">엔</td><td class="ipa">æ̃n</td><td class="ipa">ɛ̃n</td></tr><tr><td>station</td><td class="ek">스󱇂이쉰</td><td class="ek">스󱇂이션</td><td class="ipa">stẽɪʃɪn</td><td class="ipa">steɪʃə̃n</td></tr></tbody></table></div>
+
+<footer>
+Code is free for research, teaching and personal use. Commercial use needs a license from dotori.ai (<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/LICENSES.md">licenses</a>).
+English recordings: Speech Accent Archive, George Mason University (CC BY-NC-SA). Spanish voice: Meta MMS-TTS (CC BY-NC 4.0). EK font based on Noto Sans KR (SIL OFL 1.1). Patents pending.
+</footer>
+</main>
+</body>
+</html>

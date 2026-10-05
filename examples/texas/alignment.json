@@ -1,0 +1,1551 @@
+{
+ "format": "EK-synced-lyrics-alignment-v1.1",
+ "id": "texas_gmu_english9",
+ "language": "en",
+ "audio": "audio.wav",
+ "duration_sec": 28.647,
+ "aligner": "ctc",
+ "aligner_model": "wav2vec2-base-960h forced alignment",
+ "text_source": "reference",
+ "ek_source": "speaker-ipa",
+ "mark_profile": "loanword",
+ "held_status": false,
+ "words": [
+  {
+   "text": "Please",
+   "ek": "플리즈",
+   "hangul": "프리즈",
+   "start": 0.68,
+   "end": 1.06,
+   "blocks": [
+    {
+     "ch": "플",
+     "start": 0.68,
+     "end": 0.807
+    },
+    {
+     "ch": "리",
+     "start": 0.807,
+     "end": 0.933
+    },
+    {
+     "ch": "즈",
+     "start": 0.933,
+     "end": 1.06
+    }
+   ],
+   "ipa": "pʰl̥iːz̥",
+   "ek_spelling": "플리즈",
+   "differs": false
+  },
+  {
+   "text": "call",
+   "ek": "칼",
+   "hangul": "칼",
+   "start": 1.06,
+   "end": 1.4,
+   "blocks": [
+    {
+     "ch": "칼",
+     "start": 1.06,
+     "end": 1.4
+    }
+   ],
+   "ipa": "kʰɑl",
+   "ek_spelling": "콜",
+   "differs": true
+  },
+  {
+   "text": "Stella",
+   "ek": "스󱇈라",
+   "hangul": "스텔라",
+   "start": 1.48,
+   "end": 1.95,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 1.48,
+     "end": 1.637
+    },
+    {
+     "ch": "󱇈",
+     "start": 1.637,
+     "end": 1.793
+    },
+    {
+     "ch": "라",
+     "start": 1.793,
+     "end": 1.95
+    }
+   ],
+   "ipa": "stɛ̝lʌ",
+   "ek_spelling": "스󱇈라",
+   "differs": false
+  },
+  {
+   "text": "Ask",
+   "ek": "애스크",
+   "hangul": "애스크",
+   "start": 2.48,
+   "end": 2.8,
+   "blocks": [
+    {
+     "ch": "애",
+     "start": 2.48,
+     "end": 2.587
+    },
+    {
+     "ch": "스",
+     "start": 2.587,
+     "end": 2.693
+    },
+    {
+     "ch": "크",
+     "start": 2.693,
+     "end": 2.8
+    }
+   ],
+   "ipa": "æsk",
+   "ek_spelling": "애스크",
+   "differs": false
+  },
+  {
+   "text": "her",
+   "ek": "허",
+   "hangul": "허",
+   "start": 2.8,
+   "end": 3.0,
+   "blocks": [
+    {
+     "ch": "허",
+     "start": 2.8,
+     "end": 3.0
+    }
+   ],
+   "ipa": "hɝ",
+   "ek_spelling": "허",
+   "differs": false
+  },
+  {
+   "text": "to",
+   "ek": "투",
+   "hangul": "투",
+   "start": 3.0,
+   "end": 3.14,
+   "blocks": [
+    {
+     "ch": "투",
+     "start": 3.0,
+     "end": 3.14
+    }
+   ],
+   "ipa": "tʰŭ",
+   "ek_spelling": "투",
+   "differs": false
+  },
+  {
+   "text": "bring",
+   "ek": "브링",
+   "hangul": "브링",
+   "start": 3.14,
+   "end": 3.62,
+   "blocks": [
+    {
+     "ch": "브",
+     "start": 3.14,
+     "end": 3.38
+    },
+    {
+     "ch": "링",
+     "start": 3.38,
+     "end": 3.62
+    }
+   ],
+   "ipa": "bɹĩŋ",
+   "ek_spelling": "브링",
+   "differs": false
+  },
+  {
+   "text": "these",
+   "ek": "디즈",
+   "hangul": "디즈",
+   "start": 3.62,
+   "end": 3.96,
+   "blocks": [
+    {
+     "ch": "디",
+     "start": 3.62,
+     "end": 3.79
+    },
+    {
+     "ch": "즈",
+     "start": 3.79,
+     "end": 3.96
+    }
+   ],
+   "ipa": "ðiz",
+   "ek_spelling": "디즈",
+   "differs": false
+  },
+  {
+   "text": "things",
+   "ek": "󱆤즈",
+   "hangul": "띵즈",
+   "start": 3.96,
+   "end": 4.32,
+   "blocks": [
+    {
+     "ch": "󱆤",
+     "start": 3.96,
+     "end": 4.14
+    },
+    {
+     "ch": "즈",
+     "start": 4.14,
+     "end": 4.32
+    }
+   ],
+   "ipa": "θĩŋz",
+   "ek_spelling": "󱆤즈",
+   "differs": false
+  },
+  {
+   "text": "with",
+   "ek": "위󱆥",
+   "hangul": "위뜨",
+   "start": 4.32,
+   "end": 4.52,
+   "blocks": [
+    {
+     "ch": "위",
+     "start": 4.32,
+     "end": 4.42
+    },
+    {
+     "ch": "󱆥",
+     "start": 4.42,
+     "end": 4.52
+    }
+   ],
+   "ipa": "wɪθ",
+   "ek_spelling": "위드",
+   "differs": true
+  },
+  {
+   "text": "her",
+   "ek": "허",
+   "hangul": "허",
+   "start": 4.52,
+   "end": 4.72,
+   "blocks": [
+    {
+     "ch": "허",
+     "start": 4.52,
+     "end": 4.72
+    }
+   ],
+   "ipa": "hɚ",
+   "ek_spelling": "허",
+   "differs": false
+  },
+  {
+   "text": "from",
+   "ek": "󰒆럼",
+   "hangul": "프럼",
+   "start": 4.72,
+   "end": 4.98,
+   "blocks": [
+    {
+     "ch": "󰒆",
+     "start": 4.72,
+     "end": 4.85
+    },
+    {
+     "ch": "럼",
+     "start": 4.85,
+     "end": 4.98
+    }
+   ],
+   "ipa": "fɹʌm",
+   "ek_spelling": "󰒆럼",
+   "differs": false
+  },
+  {
+   "text": "the",
+   "ek": "더",
+   "hangul": "더",
+   "start": 4.98,
+   "end": 5.12,
+   "blocks": [
+    {
+     "ch": "더",
+     "start": 4.98,
+     "end": 5.12
+    }
+   ],
+   "ipa": "ðə",
+   "ek_spelling": "더",
+   "differs": false
+  },
+  {
+   "text": "store",
+   "ek": "스토",
+   "hangul": "스토",
+   "start": 5.12,
+   "end": 5.46,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 5.12,
+     "end": 5.29
+    },
+    {
+     "ch": "토",
+     "start": 5.29,
+     "end": 5.46
+    }
+   ],
+   "ipa": "stɔɹ",
+   "ek_spelling": "스토",
+   "differs": false
+  },
+  {
+   "text": "Six",
+   "ek": "식스",
+   "hangul": "식스",
+   "start": 6.4,
+   "end": 6.86,
+   "blocks": [
+    {
+     "ch": "식",
+     "start": 6.4,
+     "end": 6.63
+    },
+    {
+     "ch": "스",
+     "start": 6.63,
+     "end": 6.86
+    }
+   ],
+   "ipa": "sɪks",
+   "ek_spelling": "식스",
+   "differs": false
+  },
+  {
+   "text": "spoons",
+   "ek": "스푼즈",
+   "hangul": "스푼즈",
+   "start": 6.92,
+   "end": 7.38,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 6.92,
+     "end": 7.073
+    },
+    {
+     "ch": "푼",
+     "start": 7.073,
+     "end": 7.227
+    },
+    {
+     "ch": "즈",
+     "start": 7.227,
+     "end": 7.38
+    }
+   ],
+   "ipa": "spũːnz",
+   "ek_spelling": "스푼즈",
+   "differs": false
+  },
+  {
+   "text": "of",
+   "ek": "어󰓖",
+   "hangul": "어브",
+   "start": 7.38,
+   "end": 7.5,
+   "blocks": [
+    {
+     "ch": "어",
+     "start": 7.38,
+     "end": 7.44
+    },
+    {
+     "ch": "󰓖",
+     "start": 7.44,
+     "end": 7.5
+    }
+   ],
+   "ipa": "ʌv̥",
+   "ek_spelling": "오󰓖",
+   "differs": true
+  },
+  {
+   "text": "fresh",
+   "ek": "󰒆레쉬",
+   "hangul": "프레쉬",
+   "start": 7.5,
+   "end": 7.88,
+   "blocks": [
+    {
+     "ch": "󰒆",
+     "start": 7.5,
+     "end": 7.627
+    },
+    {
+     "ch": "레",
+     "start": 7.627,
+     "end": 7.753
+    },
+    {
+     "ch": "쉬",
+     "start": 7.753,
+     "end": 7.88
+    }
+   ],
+   "ipa": "fɹɛʃ",
+   "ek_spelling": "󰒆레쉬",
+   "differs": false
+  },
+  {
+   "text": "snow",
+   "ek": "스노",
+   "hangul": "스노",
+   "start": 7.88,
+   "end": 8.18,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 7.88,
+     "end": 8.03
+    },
+    {
+     "ch": "노",
+     "start": 8.03,
+     "end": 8.18
+    }
+   ],
+   "ipa": "snoʊ",
+   "ek_spelling": "스노",
+   "differs": false
+  },
+  {
+   "text": "peas",
+   "ek": "피즈",
+   "hangul": "피즈",
+   "start": 8.2,
+   "end": 8.84,
+   "blocks": [
+    {
+     "ch": "피",
+     "start": 8.2,
+     "end": 8.52
+    },
+    {
+     "ch": "즈",
+     "start": 8.52,
+     "end": 8.84
+    }
+   ],
+   "ipa": "pʰiːz",
+   "ek_spelling": "피즈",
+   "differs": false
+  },
+  {
+   "text": "five",
+   "ek": "󰓏이󰓖",
+   "hangul": "파이브",
+   "start": 9.22,
+   "end": 9.55,
+   "blocks": [
+    {
+     "ch": "󰓏",
+     "start": 9.22,
+     "end": 9.33
+    },
+    {
+     "ch": "이",
+     "start": 9.33,
+     "end": 9.44
+    },
+    {
+     "ch": "󰓖",
+     "start": 9.44,
+     "end": 9.55
+    }
+   ],
+   "ipa": "faɪv̥",
+   "ek_spelling": "󰓏이󰓖",
+   "differs": false
+  },
+  {
+   "text": "thick",
+   "ek": "󱆦",
+   "hangul": "띡",
+   "start": 9.62,
+   "end": 9.92,
+   "blocks": [
+    {
+     "ch": "󱆦",
+     "start": 9.62,
+     "end": 9.92
+    }
+   ],
+   "ipa": "θɪk",
+   "ek_spelling": "󱆦",
+   "differs": false
+  },
+  {
+   "text": "slabs",
+   "ek": "슬래브즈",
+   "hangul": "스래브즈",
+   "start": 9.92,
+   "end": 10.44,
+   "blocks": [
+    {
+     "ch": "슬",
+     "start": 9.92,
+     "end": 10.05
+    },
+    {
+     "ch": "래",
+     "start": 10.05,
+     "end": 10.18
+    },
+    {
+     "ch": "브",
+     "start": 10.18,
+     "end": 10.31
+    },
+    {
+     "ch": "즈",
+     "start": 10.31,
+     "end": 10.44
+    }
+   ],
+   "ipa": "slæːbz",
+   "ek_spelling": "슬래브즈",
+   "differs": false
+  },
+  {
+   "text": "of",
+   "ek": "어󰓖",
+   "hangul": "어브",
+   "start": 10.44,
+   "end": 10.56,
+   "blocks": [
+    {
+     "ch": "어",
+     "start": 10.44,
+     "end": 10.5
+    },
+    {
+     "ch": "󰓖",
+     "start": 10.5,
+     "end": 10.56
+    }
+   ],
+   "ipa": "ʌv",
+   "ek_spelling": "오󰓖",
+   "differs": true
+  },
+  {
+   "text": "blue",
+   "ek": "블루",
+   "hangul": "브루",
+   "start": 10.58,
+   "end": 10.86,
+   "blocks": [
+    {
+     "ch": "블",
+     "start": 10.58,
+     "end": 10.72
+    },
+    {
+     "ch": "루",
+     "start": 10.72,
+     "end": 10.86
+    }
+   ],
+   "ipa": "bluː",
+   "ek_spelling": "블루",
+   "differs": false
+  },
+  {
+   "text": "cheese",
+   "ek": "치즈",
+   "hangul": "치즈",
+   "start": 10.86,
+   "end": 11.34,
+   "blocks": [
+    {
+     "ch": "치",
+     "start": 10.86,
+     "end": 11.1
+    },
+    {
+     "ch": "즈",
+     "start": 11.1,
+     "end": 11.34
+    }
+   ],
+   "ipa": "ʧiːz",
+   "ek_spelling": "치즈",
+   "differs": false
+  },
+  {
+   "text": "and",
+   "ek": "앤드",
+   "hangul": "앤드",
+   "start": 11.89,
+   "end": 12.1,
+   "blocks": [
+    {
+     "ch": "앤",
+     "start": 11.89,
+     "end": 11.995
+    },
+    {
+     "ch": "드",
+     "start": 11.995,
+     "end": 12.1
+    }
+   ],
+   "ipa": "ænd",
+   "ek_spelling": "앤드",
+   "differs": false
+  },
+  {
+   "text": "maybe",
+   "ek": "󱇉이비",
+   "hangul": "메이비",
+   "start": 12.1,
+   "end": 12.5,
+   "blocks": [
+    {
+     "ch": "󱇉",
+     "start": 12.1,
+     "end": 12.233
+    },
+    {
+     "ch": "이",
+     "start": 12.233,
+     "end": 12.367
+    },
+    {
+     "ch": "비",
+     "start": 12.367,
+     "end": 12.5
+    }
+   ],
+   "ipa": "meɪbi",
+   "ek_spelling": "󱇉이비",
+   "differs": false
+  },
+  {
+   "text": "a",
+   "ek": "어",
+   "hangul": "어",
+   "start": 12.5,
+   "end": 12.62,
+   "blocks": [
+    {
+     "ch": "어",
+     "start": 12.5,
+     "end": 12.62
+    }
+   ],
+   "ipa": "ʌ",
+   "ek_spelling": "어",
+   "differs": false
+  },
+  {
+   "text": "snack",
+   "ek": "스낵",
+   "hangul": "스낵",
+   "start": 12.62,
+   "end": 13.03,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 12.62,
+     "end": 12.825
+    },
+    {
+     "ch": "낵",
+     "start": 12.825,
+     "end": 13.03
+    }
+   ],
+   "ipa": "snæk",
+   "ek_spelling": "스낵",
+   "differs": false
+  },
+  {
+   "text": "for",
+   "ek": "󰕒",
+   "hangul": "포",
+   "start": 13.13,
+   "end": 13.26,
+   "blocks": [
+    {
+     "ch": "󰕒",
+     "start": 13.13,
+     "end": 13.26
+    }
+   ],
+   "ipa": "fɔɹ",
+   "ek_spelling": "󰕒",
+   "differs": false
+  },
+  {
+   "text": "her",
+   "ek": "허",
+   "hangul": "허",
+   "start": 13.26,
+   "end": 13.4,
+   "blocks": [
+    {
+     "ch": "허",
+     "start": 13.26,
+     "end": 13.4
+    }
+   ],
+   "ipa": "hɝ",
+   "ek_spelling": "허",
+   "differs": false
+  },
+  {
+   "text": "brother",
+   "ek": "브󱇊더",
+   "hangul": "브러더",
+   "start": 13.4,
+   "end": 13.7,
+   "blocks": [
+    {
+     "ch": "브",
+     "start": 13.4,
+     "end": 13.5
+    },
+    {
+     "ch": "󱇊",
+     "start": 13.5,
+     "end": 13.6
+    },
+    {
+     "ch": "더",
+     "start": 13.6,
+     "end": 13.7
+    }
+   ],
+   "ipa": "bɹʌðɚ",
+   "ek_spelling": "브󱇊더",
+   "differs": false
+  },
+  {
+   "text": "Bob",
+   "ek": "바브",
+   "hangul": "바브",
+   "start": 13.72,
+   "end": 14.03,
+   "blocks": [
+    {
+     "ch": "바",
+     "start": 13.72,
+     "end": 13.875
+    },
+    {
+     "ch": "브",
+     "start": 13.875,
+     "end": 14.03
+    }
+   ],
+   "ipa": "bɑb",
+   "ek_spelling": "바브",
+   "differs": false
+  },
+  {
+   "text": "We",
+   "ek": "위",
+   "hangul": "위",
+   "start": 14.85,
+   "end": 15.08,
+   "blocks": [
+    {
+     "ch": "위",
+     "start": 14.85,
+     "end": 15.08
+    }
+   ],
+   "ipa": "wi",
+   "ek_spelling": "위",
+   "differs": false
+  },
+  {
+   "text": "also",
+   "ek": "󱇌소",
+   "hangul": "알소",
+   "start": 15.08,
+   "end": 15.46,
+   "blocks": [
+    {
+     "ch": "󱇌",
+     "start": 15.08,
+     "end": 15.27
+    },
+    {
+     "ch": "소",
+     "start": 15.27,
+     "end": 15.46
+    }
+   ],
+   "ipa": "ɑlso",
+   "ek_spelling": "󱇋소",
+   "differs": true
+  },
+  {
+   "text": "need",
+   "ek": "니드",
+   "hangul": "니드",
+   "start": 15.46,
+   "end": 15.76,
+   "blocks": [
+    {
+     "ch": "니",
+     "start": 15.46,
+     "end": 15.61
+    },
+    {
+     "ch": "드",
+     "start": 15.61,
+     "end": 15.76
+    }
+   ],
+   "ipa": "niːd",
+   "ek_spelling": "니드",
+   "differs": false
+  },
+  {
+   "text": "a",
+   "ek": "어",
+   "hangul": "어",
+   "start": 15.76,
+   "end": 16.0,
+   "blocks": [
+    {
+     "ch": "어",
+     "start": 15.76,
+     "end": 16.0
+    }
+   ],
+   "ipa": "ə",
+   "ek_spelling": "어",
+   "differs": false
+  },
+  {
+   "text": "small",
+   "ek": "스말",
+   "hangul": "스말",
+   "start": 16.0,
+   "end": 16.38,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 16.0,
+     "end": 16.19
+    },
+    {
+     "ch": "말",
+     "start": 16.19,
+     "end": 16.38
+    }
+   ],
+   "ipa": "smɑl",
+   "ek_spelling": "스몰",
+   "differs": true
+  },
+  {
+   "text": "plastic",
+   "ek": "플󱇍스틱",
+   "hangul": "프래스틱",
+   "start": 16.38,
+   "end": 16.94,
+   "blocks": [
+    {
+     "ch": "플",
+     "start": 16.38,
+     "end": 16.52
+    },
+    {
+     "ch": "󱇍",
+     "start": 16.52,
+     "end": 16.66
+    },
+    {
+     "ch": "스",
+     "start": 16.66,
+     "end": 16.8
+    },
+    {
+     "ch": "틱",
+     "start": 16.8,
+     "end": 16.94
+    }
+   ],
+   "ipa": "pʰl̥æstɪk",
+   "ek_spelling": "플󱇍스틱",
+   "differs": false
+  },
+  {
+   "text": "snake",
+   "ek": "스네이크",
+   "hangul": "스네이크",
+   "start": 16.94,
+   "end": 17.32,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 16.94,
+     "end": 17.035
+    },
+    {
+     "ch": "네",
+     "start": 17.035,
+     "end": 17.13
+    },
+    {
+     "ch": "이",
+     "start": 17.13,
+     "end": 17.225
+    },
+    {
+     "ch": "크",
+     "start": 17.225,
+     "end": 17.32
+    }
+   ],
+   "ipa": "sneɪk",
+   "ek_spelling": "스네이크",
+   "differs": false
+  },
+  {
+   "text": "and",
+   "ek": "앤드",
+   "hangul": "앤드",
+   "start": 17.98,
+   "end": 18.32,
+   "blocks": [
+    {
+     "ch": "앤",
+     "start": 17.98,
+     "end": 18.15
+    },
+    {
+     "ch": "드",
+     "start": 18.15,
+     "end": 18.32
+    }
+   ],
+   "ipa": "æːnd",
+   "ek_spelling": "앤드",
+   "differs": false
+  },
+  {
+   "text": "a",
+   "ek": "어",
+   "hangul": "어",
+   "start": 18.32,
+   "end": 18.44,
+   "blocks": [
+    {
+     "ch": "어",
+     "start": 18.32,
+     "end": 18.44
+    }
+   ],
+   "ipa": "ə",
+   "ek_spelling": "어",
+   "differs": false
+  },
+  {
+   "text": "big",
+   "ek": "비그",
+   "hangul": "비그",
+   "start": 18.44,
+   "end": 18.72,
+   "blocks": [
+    {
+     "ch": "비",
+     "start": 18.44,
+     "end": 18.58
+    },
+    {
+     "ch": "그",
+     "start": 18.58,
+     "end": 18.72
+    }
+   ],
+   "ipa": "bɪɡ̥",
+   "ek_spelling": "비그",
+   "differs": false
+  },
+  {
+   "text": "toy",
+   "ek": "토이",
+   "hangul": "토이",
+   "start": 18.78,
+   "end": 19.1,
+   "blocks": [
+    {
+     "ch": "토",
+     "start": 18.78,
+     "end": 18.94
+    },
+    {
+     "ch": "이",
+     "start": 18.94,
+     "end": 19.1
+    }
+   ],
+   "ipa": "tʰɔɪ",
+   "ek_spelling": "토이",
+   "differs": false
+  },
+  {
+   "text": "frog",
+   "ek": "󰒆라그",
+   "hangul": "프라그",
+   "start": 19.1,
+   "end": 19.53,
+   "blocks": [
+    {
+     "ch": "󰒆",
+     "start": 19.1,
+     "end": 19.243
+    },
+    {
+     "ch": "라",
+     "start": 19.243,
+     "end": 19.387
+    },
+    {
+     "ch": "그",
+     "start": 19.387,
+     "end": 19.53
+    }
+   ],
+   "ipa": "fɹɑɡ",
+   "ek_spelling": "󰒆라그",
+   "differs": false
+  },
+  {
+   "text": "for",
+   "ek": "󰕒",
+   "hangul": "포",
+   "start": 19.73,
+   "end": 19.84,
+   "blocks": [
+    {
+     "ch": "󰕒",
+     "start": 19.73,
+     "end": 19.84
+    }
+   ],
+   "ipa": "fɔɹ",
+   "ek_spelling": "󰕒",
+   "differs": false
+  },
+  {
+   "text": "the",
+   "ek": "더",
+   "hangul": "더",
+   "start": 19.84,
+   "end": 19.94,
+   "blocks": [
+    {
+     "ch": "더",
+     "start": 19.84,
+     "end": 19.94
+    }
+   ],
+   "ipa": "ðə",
+   "ek_spelling": "더",
+   "differs": false
+  },
+  {
+   "text": "kids",
+   "ek": "키즈",
+   "hangul": "키즈",
+   "start": 19.94,
+   "end": 20.32,
+   "blocks": [
+    {
+     "ch": "키",
+     "start": 19.94,
+     "end": 20.13
+    },
+    {
+     "ch": "즈",
+     "start": 20.13,
+     "end": 20.32
+    }
+   ],
+   "ipa": "kɪdz̥",
+   "ek_spelling": "키즈",
+   "differs": false
+  },
+  {
+   "text": "She",
+   "ek": "쉬",
+   "hangul": "쉬",
+   "start": 20.88,
+   "end": 21.12,
+   "blocks": [
+    {
+     "ch": "쉬",
+     "start": 20.88,
+     "end": 21.12
+    }
+   ],
+   "ipa": "ʃiː",
+   "ek_spelling": "쉬",
+   "differs": false
+  },
+  {
+   "text": "can",
+   "ek": "켄",
+   "hangul": "켄",
+   "start": 21.12,
+   "end": 21.34,
+   "blocks": [
+    {
+     "ch": "켄",
+     "start": 21.12,
+     "end": 21.34
+    }
+   ],
+   "ipa": "kʰɛ̃n",
+   "ek_spelling": "캔",
+   "differs": true
+  },
+  {
+   "text": "scoop",
+   "ek": "스쿠프",
+   "hangul": "스쿠프",
+   "start": 21.44,
+   "end": 21.65,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 21.44,
+     "end": 21.51
+    },
+    {
+     "ch": "쿠",
+     "start": 21.51,
+     "end": 21.58
+    },
+    {
+     "ch": "프",
+     "start": 21.58,
+     "end": 21.65
+    }
+   ],
+   "ipa": "skuːp",
+   "ek_spelling": "스쿠프",
+   "differs": false
+  },
+  {
+   "text": "these",
+   "ek": "디즈",
+   "hangul": "디즈",
+   "start": 21.7,
+   "end": 22.04,
+   "blocks": [
+    {
+     "ch": "디",
+     "start": 21.7,
+     "end": 21.87
+    },
+    {
+     "ch": "즈",
+     "start": 21.87,
+     "end": 22.04
+    }
+   ],
+   "ipa": "ðiz",
+   "ek_spelling": "디즈",
+   "differs": false
+  },
+  {
+   "text": "things",
+   "ek": "󱆤즈",
+   "hangul": "띵즈",
+   "start": 22.04,
+   "end": 22.54,
+   "blocks": [
+    {
+     "ch": "󱆤",
+     "start": 22.04,
+     "end": 22.29
+    },
+    {
+     "ch": "즈",
+     "start": 22.29,
+     "end": 22.54
+    }
+   ],
+   "ipa": "θɪ̃ŋz",
+   "ek_spelling": "󱆤즈",
+   "differs": false
+  },
+  {
+   "text": "into",
+   "ek": "󱇎러",
+   "hangul": "인러",
+   "start": 22.81,
+   "end": 23.09,
+   "blocks": [
+    {
+     "ch": "󱇎",
+     "start": 22.81,
+     "end": 22.95
+    },
+    {
+     "ch": "러",
+     "start": 22.95,
+     "end": 23.09
+    }
+   ],
+   "ipa": "ɪnɾə",
+   "ek_spelling": "󱇎투",
+   "differs": true
+  },
+  {
+   "text": "three",
+   "ek": "󱆥리",
+   "hangul": "뜨리",
+   "start": 23.09,
+   "end": 23.52,
+   "blocks": [
+    {
+     "ch": "󱆥",
+     "start": 23.09,
+     "end": 23.305
+    },
+    {
+     "ch": "리",
+     "start": 23.305,
+     "end": 23.52
+    }
+   ],
+   "ipa": "θɹi",
+   "ek_spelling": "󱆥리",
+   "differs": false
+  },
+  {
+   "text": "red",
+   "ek": "레드",
+   "hangul": "레드",
+   "start": 23.52,
+   "end": 23.88,
+   "blocks": [
+    {
+     "ch": "레",
+     "start": 23.52,
+     "end": 23.7
+    },
+    {
+     "ch": "드",
+     "start": 23.7,
+     "end": 23.88
+    }
+   ],
+   "ipa": "ɹɛd",
+   "ek_spelling": "레드",
+   "differs": false
+  },
+  {
+   "text": "bags",
+   "ek": "배그즈",
+   "hangul": "배그즈",
+   "start": 23.92,
+   "end": 24.45,
+   "blocks": [
+    {
+     "ch": "배",
+     "start": 23.92,
+     "end": 24.097
+    },
+    {
+     "ch": "그",
+     "start": 24.097,
+     "end": 24.273
+    },
+    {
+     "ch": "즈",
+     "start": 24.273,
+     "end": 24.45
+    }
+   ],
+   "ipa": "bæːɡz",
+   "ek_spelling": "배그즈",
+   "differs": false
+  },
+  {
+   "text": "and",
+   "ek": "앤",
+   "hangul": "앤",
+   "start": 24.82,
+   "end": 25.04,
+   "blocks": [
+    {
+     "ch": "앤",
+     "start": 24.82,
+     "end": 25.04
+    }
+   ],
+   "ipa": "æ̃n",
+   "ek_spelling": "앤드",
+   "differs": true
+  },
+  {
+   "text": "we",
+   "ek": "위",
+   "hangul": "위",
+   "start": 25.04,
+   "end": 25.2,
+   "blocks": [
+    {
+     "ch": "위",
+     "start": 25.04,
+     "end": 25.2
+    }
+   ],
+   "ipa": "wi",
+   "ek_spelling": "위",
+   "differs": false
+  },
+  {
+   "text": "will",
+   "ek": "윌",
+   "hangul": "윌",
+   "start": 25.2,
+   "end": 25.4,
+   "blocks": [
+    {
+     "ch": "윌",
+     "start": 25.2,
+     "end": 25.4
+    }
+   ],
+   "ipa": "wɪl",
+   "ek_spelling": "윌",
+   "differs": false
+  },
+  {
+   "text": "go",
+   "ek": "고",
+   "hangul": "고",
+   "start": 25.4,
+   "end": 25.68,
+   "blocks": [
+    {
+     "ch": "고",
+     "start": 25.4,
+     "end": 25.68
+    }
+   ],
+   "ipa": "ɡoʊ",
+   "ek_spelling": "고",
+   "differs": false
+  },
+  {
+   "text": "meet",
+   "ek": "미트",
+   "hangul": "미트",
+   "start": 25.68,
+   "end": 25.94,
+   "blocks": [
+    {
+     "ch": "미",
+     "start": 25.68,
+     "end": 25.81
+    },
+    {
+     "ch": "트",
+     "start": 25.81,
+     "end": 25.94
+    }
+   ],
+   "ipa": "mit",
+   "ek_spelling": "미트",
+   "differs": false
+  },
+  {
+   "text": "her",
+   "ek": "허",
+   "hangul": "허",
+   "start": 25.94,
+   "end": 26.24,
+   "blocks": [
+    {
+     "ch": "허",
+     "start": 25.94,
+     "end": 26.24
+    }
+   ],
+   "ipa": "hɝ",
+   "ek_spelling": "허",
+   "differs": false
+  },
+  {
+   "text": "Wednesday",
+   "ek": "󱇏즈데이",
+   "hangul": "웬즈데이",
+   "start": 26.24,
+   "end": 27.18,
+   "blocks": [
+    {
+     "ch": "󱇏",
+     "start": 26.24,
+     "end": 26.475
+    },
+    {
+     "ch": "즈",
+     "start": 26.475,
+     "end": 26.71
+    },
+    {
+     "ch": "데",
+     "start": 26.71,
+     "end": 26.945
+    },
+    {
+     "ch": "이",
+     "start": 26.945,
+     "end": 27.18
+    }
+   ],
+   "ipa": "wɛ̝̃nzdeɪ",
+   "ek_spelling": "󱇏즈디",
+   "differs": true
+  },
+  {
+   "text": "at",
+   "ek": "앹",
+   "hangul": "앹",
+   "start": 27.18,
+   "end": 27.28,
+   "blocks": [
+    {
+     "ch": "앹",
+     "start": 27.18,
+     "end": 27.28
+    }
+   ],
+   "ipa": "æt̪˺",
+   "ek_spelling": "앹",
+   "differs": false
+  },
+  {
+   "text": "the",
+   "ek": "더",
+   "hangul": "더",
+   "start": 27.28,
+   "end": 27.4,
+   "blocks": [
+    {
+     "ch": "더",
+     "start": 27.28,
+     "end": 27.4
+    }
+   ],
+   "ipa": "ðə",
+   "ek_spelling": "더",
+   "differs": false
+  },
+  {
+   "text": "train",
+   "ek": "트레인",
+   "hangul": "트레인",
+   "start": 27.4,
+   "end": 27.68,
+   "blocks": [
+    {
+     "ch": "트",
+     "start": 27.4,
+     "end": 27.493
+    },
+    {
+     "ch": "레",
+     "start": 27.493,
+     "end": 27.587
+    },
+    {
+     "ch": "인",
+     "start": 27.587,
+     "end": 27.68
+    }
+   ],
+   "ipa": "tɹeɪ̃n",
+   "ek_spelling": "트레인",
+   "differs": false
+  },
+  {
+   "text": "station",
+   "ek": "스󱇂이쉰",
+   "hangul": "스테이쉰",
+   "start": 27.68,
+   "end": 28.1,
+   "blocks": [
+    {
+     "ch": "스",
+     "start": 27.68,
+     "end": 27.785
+    },
+    {
+     "ch": "󱇂",
+     "start": 27.785,
+     "end": 27.89
+    },
+    {
+     "ch": "이",
+     "start": 27.89,
+     "end": 27.995
+    },
+    {
+     "ch": "쉰",
+     "start": 27.995,
+     "end": 28.1
+    }
+   ],
+   "ipa": "stẽɪʃɪn",
+   "ek_spelling": "스󱇂이션",
+   "differs": true
+  }
+ ],
+ "stats": {
+  "words": 69,
+  "blocks": 137,
+  "extended_blocks": 22,
+  "blocks_per_sec": 4.78,
+  "voiced_sec": 21.52,
+  "blocks_per_voiced_sec": 6.37,
+  "words_differing_from_spelling": 11
+ },
+ "private_research": false,
+ "license_note": "Alignment JSON and EK text are project outputs; the audio keeps its own source license.",
+ "reference_text": "Please call Stella. Ask her to bring these things with her from the store: Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob. We also need a small plastic snake and a big toy frog for the kids. She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.",
+ "audio_source": "https://accent.gmu.edu/samples/english9/ (human recording)",
+ "ipa_source": "Speech Accent Archive narrow transcription of this recording",
+ "dialect": "Texas English — Carthage, Texas",
+ "speaker": "female, 48, native english",
+ "license": "CC BY-NC-SA 4.0 (Speech Accent Archive, George Mason University)",
+ "font_coverage": {
+  "font": "build/font-v04-contextual/EKSansBlock-Regular.woff2",
+  "blocks_checked": 15,
+  "missing": [],
+  "mismatch": []
+ }
+}

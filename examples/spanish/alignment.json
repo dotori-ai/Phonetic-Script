@@ -1,0 +1,847 @@
+{
+ "format": "EK-synced-lyrics-alignment-v1.1",
+ "id": "sejong_es_mms",
+ "language": "es",
+ "audio": "audio.wav",
+ "duration_sec": 16.496,
+ "aligner": "ctc",
+ "aligner_model": "wav2vec2-base-960h forced alignment (English letters folded from es; approximate)",
+ "text_source": "reference",
+ "ek_source": "spelling",
+ "mark_profile": "loanword",
+ "held_status": false,
+ "words": [
+  {
+   "text": "El",
+   "ek": "엘",
+   "hangul": "엘",
+   "start": 0.4,
+   "end": 0.62,
+   "blocks": [
+    {
+     "ch": "엘",
+     "start": 0.4,
+     "end": 0.62
+    }
+   ]
+  },
+  {
+   "text": "rey",
+   "ek": "󰒥이",
+   "hangul": "레이",
+   "start": 0.62,
+   "end": 0.86,
+   "blocks": [
+    {
+     "ch": "󰒥",
+     "start": 0.62,
+     "end": 0.74
+    },
+    {
+     "ch": "이",
+     "start": 0.74,
+     "end": 0.86
+    }
+   ]
+  },
+  {
+   "text": "Sejong",
+   "ek": "세종",
+   "hangul": "세종",
+   "start": 0.86,
+   "end": 1.2,
+   "blocks": [
+    {
+     "ch": "세",
+     "start": 0.86,
+     "end": 1.03
+    },
+    {
+     "ch": "종",
+     "start": 1.03,
+     "end": 1.2
+    }
+   ]
+  },
+  {
+   "text": "el",
+   "ek": "엘",
+   "hangul": "엘",
+   "start": 1.2,
+   "end": 1.36,
+   "blocks": [
+    {
+     "ch": "엘",
+     "start": 1.2,
+     "end": 1.36
+    }
+   ]
+  },
+  {
+   "text": "Grande",
+   "ek": "그란데",
+   "hangul": "그란데",
+   "start": 1.37,
+   "end": 1.75,
+   "blocks": [
+    {
+     "ch": "그",
+     "start": 1.37,
+     "end": 1.497
+    },
+    {
+     "ch": "란",
+     "start": 1.497,
+     "end": 1.623
+    },
+    {
+     "ch": "데",
+     "start": 1.623,
+     "end": 1.75
+    }
+   ]
+  },
+  {
+   "text": "fue",
+   "ek": "󱆡에",
+   "hangul": "푸에",
+   "start": 1.8,
+   "end": 1.9,
+   "blocks": [
+    {
+     "ch": "󱆡",
+     "start": 1.8,
+     "end": 1.85
+    },
+    {
+     "ch": "에",
+     "start": 1.85,
+     "end": 1.9
+    }
+   ]
+  },
+  {
+   "text": "el",
+   "ek": "엘",
+   "hangul": "엘",
+   "start": 1.9,
+   "end": 2.05,
+   "blocks": [
+    {
+     "ch": "엘",
+     "start": 1.9,
+     "end": 2.05
+    }
+   ]
+  },
+  {
+   "text": "cuarto",
+   "ek": "쿠아르토",
+   "hangul": "쿠아르토",
+   "start": 2.08,
+   "end": 2.48,
+   "blocks": [
+    {
+     "ch": "쿠",
+     "start": 2.08,
+     "end": 2.18
+    },
+    {
+     "ch": "아",
+     "start": 2.18,
+     "end": 2.28
+    },
+    {
+     "ch": "르",
+     "start": 2.28,
+     "end": 2.38
+    },
+    {
+     "ch": "토",
+     "start": 2.38,
+     "end": 2.48
+    }
+   ]
+  },
+  {
+   "text": "rey",
+   "ek": "󰒥이",
+   "hangul": "레이",
+   "start": 2.48,
+   "end": 2.66,
+   "blocks": [
+    {
+     "ch": "󰒥",
+     "start": 2.48,
+     "end": 2.57
+    },
+    {
+     "ch": "이",
+     "start": 2.57,
+     "end": 2.66
+    }
+   ]
+  },
+  {
+   "text": "de",
+   "ek": "데",
+   "hangul": "데",
+   "start": 2.66,
+   "end": 2.82,
+   "blocks": [
+    {
+     "ch": "데",
+     "start": 2.66,
+     "end": 2.82
+    }
+   ]
+  },
+  {
+   "text": "Joseon",
+   "ek": "조선",
+   "hangul": "조선",
+   "start": 2.85,
+   "end": 3.36,
+   "blocks": [
+    {
+     "ch": "조",
+     "start": 2.85,
+     "end": 3.105
+    },
+    {
+     "ch": "선",
+     "start": 3.105,
+     "end": 3.36
+    }
+   ]
+  },
+  {
+   "text": "Creó",
+   "ek": "크레오",
+   "hangul": "크레오",
+   "start": 3.39,
+   "end": 3.78,
+   "blocks": [
+    {
+     "ch": "크",
+     "start": 3.39,
+     "end": 3.52
+    },
+    {
+     "ch": "레",
+     "start": 3.52,
+     "end": 3.65
+    },
+    {
+     "ch": "오",
+     "start": 3.65,
+     "end": 3.78
+    }
+   ]
+  },
+  {
+   "text": "veintiocho",
+   "ek": "베인티오초",
+   "hangul": "베인티오초",
+   "start": 4.06,
+   "end": 4.82,
+   "blocks": [
+    {
+     "ch": "베",
+     "start": 4.06,
+     "end": 4.212
+    },
+    {
+     "ch": "인",
+     "start": 4.212,
+     "end": 4.364
+    },
+    {
+     "ch": "티",
+     "start": 4.364,
+     "end": 4.516
+    },
+    {
+     "ch": "오",
+     "start": 4.516,
+     "end": 4.668
+    },
+    {
+     "ch": "초",
+     "start": 4.668,
+     "end": 4.82
+    }
+   ]
+  },
+  {
+   "text": "letras",
+   "ek": "레트라스",
+   "hangul": "레트라스",
+   "start": 5.28,
+   "end": 5.76,
+   "blocks": [
+    {
+     "ch": "레",
+     "start": 5.28,
+     "end": 5.4
+    },
+    {
+     "ch": "트",
+     "start": 5.4,
+     "end": 5.52
+    },
+    {
+     "ch": "라",
+     "start": 5.52,
+     "end": 5.64
+    },
+    {
+     "ch": "스",
+     "start": 5.64,
+     "end": 5.76
+    }
+   ]
+  },
+  {
+   "text": "para",
+   "ek": "파라",
+   "hangul": "파라",
+   "start": 5.82,
+   "end": 6.02,
+   "blocks": [
+    {
+     "ch": "파",
+     "start": 5.82,
+     "end": 5.92
+    },
+    {
+     "ch": "라",
+     "start": 5.92,
+     "end": 6.02
+    }
+   ]
+  },
+  {
+   "text": "que",
+   "ek": "케",
+   "hangul": "케",
+   "start": 6.02,
+   "end": 6.12,
+   "blocks": [
+    {
+     "ch": "케",
+     "start": 6.02,
+     "end": 6.12
+    }
+   ]
+  },
+  {
+   "text": "la",
+   "ek": "라",
+   "hangul": "라",
+   "start": 6.12,
+   "end": 6.24,
+   "blocks": [
+    {
+     "ch": "라",
+     "start": 6.12,
+     "end": 6.24
+    }
+   ]
+  },
+  {
+   "text": "gente",
+   "ek": "󱆣테",
+   "hangul": "헨테",
+   "start": 6.24,
+   "end": 6.58,
+   "blocks": [
+    {
+     "ch": "󱆣",
+     "start": 6.24,
+     "end": 6.41
+    },
+    {
+     "ch": "테",
+     "start": 6.41,
+     "end": 6.58
+    }
+   ]
+  },
+  {
+   "text": "común",
+   "ek": "코문",
+   "hangul": "코문",
+   "start": 6.62,
+   "end": 6.92,
+   "blocks": [
+    {
+     "ch": "코",
+     "start": 6.62,
+     "end": 6.77
+    },
+    {
+     "ch": "문",
+     "start": 6.77,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "text": "pudiera",
+   "ek": "푸디에라",
+   "hangul": "푸디에라",
+   "start": 6.96,
+   "end": 7.38,
+   "blocks": [
+    {
+     "ch": "푸",
+     "start": 6.96,
+     "end": 7.065
+    },
+    {
+     "ch": "디",
+     "start": 7.065,
+     "end": 7.17
+    },
+    {
+     "ch": "에",
+     "start": 7.17,
+     "end": 7.275
+    },
+    {
+     "ch": "라",
+     "start": 7.275,
+     "end": 7.38
+    }
+   ]
+  },
+  {
+   "text": "aprenderlas",
+   "ek": "아프렌데를라스",
+   "hangul": "아프렌데를라스",
+   "start": 7.47,
+   "end": 8.07,
+   "blocks": [
+    {
+     "ch": "아",
+     "start": 7.47,
+     "end": 7.556
+    },
+    {
+     "ch": "프",
+     "start": 7.556,
+     "end": 7.641
+    },
+    {
+     "ch": "렌",
+     "start": 7.641,
+     "end": 7.727
+    },
+    {
+     "ch": "데",
+     "start": 7.727,
+     "end": 7.813
+    },
+    {
+     "ch": "를",
+     "start": 7.813,
+     "end": 7.899
+    },
+    {
+     "ch": "라",
+     "start": 7.899,
+     "end": 7.984
+    },
+    {
+     "ch": "스",
+     "start": 7.984,
+     "end": 8.07
+    }
+   ]
+  },
+  {
+   "text": "con",
+   "ek": "콘",
+   "hangul": "콘",
+   "start": 8.09,
+   "end": 8.24,
+   "blocks": [
+    {
+     "ch": "콘",
+     "start": 8.09,
+     "end": 8.24
+    }
+   ]
+  },
+  {
+   "text": "facilidad",
+   "ek": "󰓏실리다드",
+   "hangul": "파실리다드",
+   "start": 8.25,
+   "end": 8.89,
+   "blocks": [
+    {
+     "ch": "󰓏",
+     "start": 8.25,
+     "end": 8.378
+    },
+    {
+     "ch": "실",
+     "start": 8.378,
+     "end": 8.506
+    },
+    {
+     "ch": "리",
+     "start": 8.506,
+     "end": 8.634
+    },
+    {
+     "ch": "다",
+     "start": 8.634,
+     "end": 8.762
+    },
+    {
+     "ch": "드",
+     "start": 8.762,
+     "end": 8.89
+    }
+   ]
+  },
+  {
+   "text": "y",
+   "ek": "이",
+   "hangul": "이",
+   "start": 9.19,
+   "end": 9.38,
+   "blocks": [
+    {
+     "ch": "이",
+     "start": 9.19,
+     "end": 9.38
+    }
+   ]
+  },
+  {
+   "text": "usarlas",
+   "ek": "우사를라스",
+   "hangul": "우사를라스",
+   "start": 9.38,
+   "end": 9.91,
+   "blocks": [
+    {
+     "ch": "우",
+     "start": 9.38,
+     "end": 9.486
+    },
+    {
+     "ch": "사",
+     "start": 9.486,
+     "end": 9.592
+    },
+    {
+     "ch": "를",
+     "start": 9.592,
+     "end": 9.698
+    },
+    {
+     "ch": "라",
+     "start": 9.698,
+     "end": 9.804
+    },
+    {
+     "ch": "스",
+     "start": 9.804,
+     "end": 9.91
+    }
+   ]
+  },
+  {
+   "text": "cada",
+   "ek": "카다",
+   "hangul": "카다",
+   "start": 9.95,
+   "end": 10.2,
+   "blocks": [
+    {
+     "ch": "카",
+     "start": 9.95,
+     "end": 10.075
+    },
+    {
+     "ch": "다",
+     "start": 10.075,
+     "end": 10.2
+    }
+   ]
+  },
+  {
+   "text": "día",
+   "ek": "디아",
+   "hangul": "디아",
+   "start": 10.2,
+   "end": 10.58,
+   "blocks": [
+    {
+     "ch": "디",
+     "start": 10.2,
+     "end": 10.39
+    },
+    {
+     "ch": "아",
+     "start": 10.39,
+     "end": 10.58
+    }
+   ]
+  },
+  {
+   "text": "Las",
+   "ek": "라스",
+   "hangul": "라스",
+   "start": 10.93,
+   "end": 11.24,
+   "blocks": [
+    {
+     "ch": "라",
+     "start": 10.93,
+     "end": 11.085
+    },
+    {
+     "ch": "스",
+     "start": 11.085,
+     "end": 11.24
+    }
+   ]
+  },
+  {
+   "text": "letras",
+   "ek": "레트라스",
+   "hangul": "레트라스",
+   "start": 11.24,
+   "end": 11.6,
+   "blocks": [
+    {
+     "ch": "레",
+     "start": 11.24,
+     "end": 11.33
+    },
+    {
+     "ch": "트",
+     "start": 11.33,
+     "end": 11.42
+    },
+    {
+     "ch": "라",
+     "start": 11.42,
+     "end": 11.51
+    },
+    {
+     "ch": "스",
+     "start": 11.51,
+     "end": 11.6
+    }
+   ]
+  },
+  {
+   "text": "se",
+   "ek": "세",
+   "hangul": "세",
+   "start": 11.6,
+   "end": 11.74,
+   "blocks": [
+    {
+     "ch": "세",
+     "start": 11.6,
+     "end": 11.74
+    }
+   ]
+  },
+  {
+   "text": "llamaron",
+   "ek": "야마론",
+   "hangul": "야마론",
+   "start": 11.74,
+   "end": 12.2,
+   "blocks": [
+    {
+     "ch": "야",
+     "start": 11.74,
+     "end": 11.893
+    },
+    {
+     "ch": "마",
+     "start": 11.893,
+     "end": 12.047
+    },
+    {
+     "ch": "론",
+     "start": 12.047,
+     "end": 12.2
+    }
+   ]
+  },
+  {
+   "text": "Hunminjeongeum",
+   "ek": "훈민정음",
+   "hangul": "훈민정음",
+   "start": 12.2,
+   "end": 13.1,
+   "blocks": [
+    {
+     "ch": "훈",
+     "start": 12.2,
+     "end": 12.425
+    },
+    {
+     "ch": "민",
+     "start": 12.425,
+     "end": 12.65
+    },
+    {
+     "ch": "정",
+     "start": 12.65,
+     "end": 12.875
+    },
+    {
+     "ch": "음",
+     "start": 12.875,
+     "end": 13.1
+    }
+   ]
+  },
+  {
+   "text": "y",
+   "ek": "이",
+   "hangul": "이",
+   "start": 13.26,
+   "end": 13.44,
+   "blocks": [
+    {
+     "ch": "이",
+     "start": 13.26,
+     "end": 13.44
+    }
+   ]
+  },
+  {
+   "text": "más",
+   "ek": "마스",
+   "hangul": "마스",
+   "start": 13.44,
+   "end": 13.71,
+   "blocks": [
+    {
+     "ch": "마",
+     "start": 13.44,
+     "end": 13.575
+    },
+    {
+     "ch": "스",
+     "start": 13.575,
+     "end": 13.71
+    }
+   ]
+  },
+  {
+   "text": "tarde",
+   "ek": "타르데",
+   "hangul": "타르데",
+   "start": 14.18,
+   "end": 14.61,
+   "blocks": [
+    {
+     "ch": "타",
+     "start": 14.18,
+     "end": 14.323
+    },
+    {
+     "ch": "르",
+     "start": 14.323,
+     "end": 14.467
+    },
+    {
+     "ch": "데",
+     "start": 14.467,
+     "end": 14.61
+    }
+   ]
+  },
+  {
+   "text": "se",
+   "ek": "세",
+   "hangul": "세",
+   "start": 14.94,
+   "end": 15.14,
+   "blocks": [
+    {
+     "ch": "세",
+     "start": 14.94,
+     "end": 15.14
+    }
+   ]
+  },
+  {
+   "text": "llamaron",
+   "ek": "야마론",
+   "hangul": "야마론",
+   "start": 15.14,
+   "end": 15.64,
+   "blocks": [
+    {
+     "ch": "야",
+     "start": 15.14,
+     "end": 15.307
+    },
+    {
+     "ch": "마",
+     "start": 15.307,
+     "end": 15.473
+    },
+    {
+     "ch": "론",
+     "start": 15.473,
+     "end": 15.64
+    }
+   ]
+  },
+  {
+   "text": "Hangul",
+   "ek": "한글",
+   "hangul": "한글",
+   "start": 15.64,
+   "end": 16.1,
+   "blocks": [
+    {
+     "ch": "한",
+     "start": 15.64,
+     "end": 15.87
+    },
+    {
+     "ch": "글",
+     "start": 15.87,
+     "end": 16.1
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "words": 38,
+  "blocks": 94,
+  "extended_blocks": 5,
+  "blocks_per_sec": 5.7,
+  "voiced_sec": 12.9,
+  "blocks_per_voiced_sec": 7.29
+ },
+ "private_research": false,
+ "license_note": "Alignment JSON and EK text are project outputs; the audio keeps its own source license.",
+ "reference_text": "El rey Sejong el Grande fue el cuarto rey de Joseon. Creó veintiocho letras para que la gente común pudiera aprenderlas con facilidad y usarlas cada día. Las letras se llamaron Hunminjeongeum y más tarde se llamaron Hangul.",
+ "audio_source": "Meta MMS-TTS facebook/mms-tts-spa, run locally (synthetic; replace with a human recording)",
+ "license": "CC BY-NC 4.0 (MMS-TTS model license)",
+ "variety": "latam",
+ "font_coverage": {
+  "font": "build/font-v04-contextual/EKSansBlock-Regular.woff2",
+  "blocks_checked": 4,
+  "missing": [],
+  "mismatch": []
+ }
+}
