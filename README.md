@@ -1,35 +1,40 @@
-# Phonetic Script: Extended Korean (EK)
+# Phonetic Script
 
-**One Hangul-based script that writes how any language sounds.**
+**Write how the world sounds.**
 
-Extended Korean (EK) uses standard Hangul for the sounds Korean already has, and a small,
-systematic set of marks for the sounds it doesn't: *f*, *v*, *th*, the Spanish tap,
-and more. Because EK is written from what a speaker actually *said*, two dialects of
-the same language come out differently, and that difference is the dialect, written
-down.
+Phonetic Script is a single writing system, built on Hangul, that records how any
+language is actually pronounced. Sounds Hangul already has are written as they are.
+For the ones it doesn't (*f*, *v*, *th*, the Spanish trilled *rr*, Mandarin tones),
+one small mark is added to a familiar letter. Because it is written from what a
+speaker actually *said*, two dialects of the same language come out differently, and
+that difference is the dialect, written down.
 
-**▶ Live demo: <https://dotori-ai.github.io/Phonetic-Script/>**
+**▶ Live site: <https://dotori-ai.github.io/Phonetic-Script/>**  ·  [한국어](https://dotori-ai.github.io/Phonetic-Script/ko/) · [Español](https://dotori-ai.github.io/Phonetic-Script/es/) · [中文](https://dotori-ai.github.io/Phonetic-Script/zh/)
 
-Extended EK letters are drawn by the project's own font. GitHub's file view doesn't have
-it, so open the live pages to see every block. The tables below use only standard
+The new letters are drawn by the project's own font. GitHub's file view doesn't have
+it, so open the live site to see every letter. The tables below use only standard
 Hangul.
 
-## Try it
+## Pages
 
 | Page | What it shows |
 |---|---|
-| [Word editor](https://dotori-ai.github.io/Phonetic-Script/editor/) | 156 English and Spanish words with their EK spelling, standard Hangul and IPA. Type the spelling you hear and export it for review. |
-| [Texas English](https://dotori-ai.github.io/Phonetic-Script/examples/texas/) | A speaker from Carthage, Texas, reading the "Please call Stella" paragraph. EK blocks light up in time with her voice. |
-| [General American](https://dotori-ai.github.io/Phonetic-Script/examples/general-american/) | The same paragraph read by a speaker from Delaware, Ohio. |
-| [Spanish · Español](https://dotori-ai.github.io/Phonetic-Script/examples/spanish/) | A short passage about King Sejong, in a Latin American Spanish reading. |
+| [Main](https://dotori-ai.github.io/Phonetic-Script/) | English, Spanish, Mandarin and Korean words side by side, and two American dialects compared |
+| [한국어](https://dotori-ai.github.io/Phonetic-Script/ko/) | How the script continues Hunminjeongeum: the lost letters (ㆍ ㅿ ㆆ ㆁ), linked letters (ㅸ ㆄ), tone dots, and the new six-field letter structure |
+| [Español](https://dotori-ai.github.io/Phonetic-Script/es/) | *pero* vs *perro*, *j*, *ñ*, and Spain vs Latin America (*gracias* with /θ/ or /s/) |
+| [中文](https://dotori-ai.github.io/Phonetic-Script/zh/) | Mandarin tones written above the syllable (妈 麻 马 骂) |
+| [Word editor](https://dotori-ai.github.io/Phonetic-Script/editor/) | 156 English and Spanish words with their spelling, standard Hangul and IPA. Type the spelling you hear and export it for review. |
+| [Texas English](https://dotori-ai.github.io/Phonetic-Script/examples/texas/) | A speaker from Carthage, Texas, reading the "Please call Stella" paragraph. The script lights up in time with her voice. |
+| [General American](https://dotori-ai.github.io/Phonetic-Script/examples/general-american/) | The same paragraph read by a speaker from Delaware, Ohio |
+| [Spanish example](https://dotori-ai.github.io/Phonetic-Script/examples/spanish/) | A short passage about King Sejong, in a Latin American Spanish reading |
 
 ## Example: same paragraph, two American voices
 
-Both speakers read the identical text. The EK on each page comes from a narrow phonetic
+Both speakers read the identical text. Each page is written from a narrow phonetic
 transcription of that recording, not from a dictionary. A selection of the words where
 the two speakers differ:
 
-| Word | Texas EK | General American EK | Texas IPA | General American IPA |
+| Word | Texas | General American | Texas IPA | General American IPA |
 |---|---|---|---|---|
 | call | 칼 | 컬 | kʰɑl | kʰɑlˠ |
 | to | 투 | 러 | tʰŭ | ɾə |
@@ -40,29 +45,21 @@ the two speakers differ:
 
 The Texas speaker keeps full vowels where the Ohio speaker reduces them (*can* 켄 vs
 컨, *and* 앤드 vs 언). The Ohio speaker flaps the *t* in *to* (러) and says *snow* with an
-*sh* (쉬노). The live page lists all 13 differences, including ones that need extended
-blocks (*things*, *of*, *for*, *into*, *station*).
+*sh* (쉬노). The live page lists all 13 differences, including ones that need the new
+letters (*things*, *of*, *for*, *into*, *station*).
 
-Compared with the dictionary reading of the same words, the Texas speaker differs in 11
-of 69 words: *call* 칼 (dictionary 콜), *can* 켄 (캔), *and* 앤 (앤드), and *station*
-ends in 쉰 instead of 션.
+## Example: one mark, one new sound
 
-## Example: Spanish
+| Word | Language | Standard Hangul | Phonetic Script (composition) | IPA |
+|---|---|---|---|---|
+| coffee | English | 카피 | ˈ[ㅋ+ㅏ][ㅍ'+ㅣ] | kʰˈɑːfi |
+| think | English | 띵크 | [ㅌㅎ+ㅣ+ㅇ]크 | θɪŋk |
+| pero / perro | Spanish | 페로 / 페로 | 페로 / 페[ㄹ-+ㅗ] | peɾo / pero |
+| jamón | Spanish | 하몬 | [ㄱ'+ㅏ]몬 | xamon |
+| 妈 / 马 | Mandarin | 마 / 마 | [ㅁ+ㅏ̄] / [ㅁ+ㅏ̌] | ma˥ / ma˨˩˦ |
 
-*El rey Sejong el Grande fue el cuarto rey de Joseon. Creó veintiocho letras para que la
-gente común pudiera aprenderlas con facilidad y usarlas cada día…*
-
-| Original | EK | Pronunciation (IPA) |
-|---|---|---|
-| Grande | 그란데 | ɡɾande |
-| cuarto | 쿠아르토 | kwaɾto |
-| veintiocho | 베인티오초 | beintjot͡ʃo |
-| llamaron | 야마론 | ʝamaɾon |
-| Hunminjeongeum | 훈민정음 | unminxeonxeum |
-| rey · gente · facilidad | *extended blocks; see the live page* | ɾei · xente · fasilidad |
-
-Spanish *r* (tap), *j/g* (/x/) and *f* have no standard Hangul letter, so EK writes
-them with extended blocks. The live page shows them.
+Standard Hangul writes *pero* ("but") and *perro* ("dog") the same way, and all four
+Mandarin *ma* the same way. Phonetic Script keeps them apart.
 
 ## How the examples were made
 
@@ -72,17 +69,26 @@ them with extended blocks. The live page shows them.
 - **Spanish audio:** synthetic, generated locally with Meta's
   [MMS-TTS](https://huggingface.co/facebook/mms-tts-spa) (CC BY-NC 4.0). It will be
   replaced with a human recording; volunteers are welcome.
-- **Timing:** forced alignment with wav2vec2. **EK text:** the project's
-  pronunciation-to-EK engine under its Korean loanword rules. One General American word
-  was corrected by ear.
-- Each example folder has an `alignment.json` with every word's timing, EK spelling,
+- **Timing:** forced alignment with wav2vec2. **Spelling:** the project's
+  pronunciation engine under its Korean loanword rules. One General American word was
+  corrected by ear.
+- Each example folder has an `alignment.json` with every word's timing, spelling,
   standard Hangul, and (for English) IPA.
+
+## Support
+
+The script is built by linguists, native speakers and type designers. Support pays
+them, and pays for recordings made with each speaker's consent. Supporters see every
+result before public release, and every expense goes into a public ledger. Support
+levels are on the [live site](https://dotori-ai.github.io/Phonetic-Script/#support).
+Organizations: licensing@dotori.ai.
 
 ## Contribute
 
 We are recruiting **linguists and native speakers from every language**, plus dialect
-recordings, starting with US regional English, Spanish varieties and Korean dialects.
-See [CONTRIBUTING.md](CONTRIBUTING.md). All contributors sign the [CLA](CLA.md).
+recordings, starting with US regional English, Spanish varieties, Korean dialects and
+Chinese languages. See [CONTRIBUTING.md](CONTRIBUTING.md). All contributors sign the
+[CLA](CLA.md).
 
 ## License
 
@@ -90,7 +96,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). All contributors sign the [CLA](CLA.md).
 
 - **Code (pages and editor):** [PolyForm Noncommercial 1.0.0](LICENSE). Free for research,
   teaching and personal use.
-- **EK text and word data:** CC BY 4.0. **Font:** [SIL OFL 1.1](fonts/OFL.txt).
+- **Spellings and word data:** CC BY 4.0. **Font:** [SIL OFL 1.1](fonts/OFL.txt).
 - **Audio:** the source's own license (see above).
 - **Commercial use** of the code, the models or the patented methods: see
   [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) and [PATENTS.md](PATENTS.md), or write
