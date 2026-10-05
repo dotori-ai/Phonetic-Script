@@ -21,6 +21,10 @@ word and still sound like they come from different places. An AI that only reads
 spelling misses that. To understand dialects, accents and nuance, an AI has to understand
 sound, and it needs a script that writes sound.
 
+## Our larger goal: voice AI for 6G
+
+We are currently researching voice AI for 6G wireless communication. In 6G networks, devices will do more than pass raw audio along: they will understand the sounds and meaning of speech and exchange them. Phonetic Script is one part of that goal. It is a precise written form of speech sounds that people and machines can both read, in every language and dialect.
+
 ## Many ways of speaking have no letters of their own
 
 Most writing systems were made for one standard variety of one language. Everything

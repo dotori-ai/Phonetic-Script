@@ -19,6 +19,10 @@ palabra por palabra y sonar de lugares distintos. Una IA que solo lee la ortogra
 diferencia. Para entender dialectos, acentos y matices, la IA necesita entender el sonido, y
 para eso hace falta una escritura que escriba el sonido.
 
+## Nuestro objetivo mayor: IA de voz para 6G
+
+Actualmente investigamos IA de voz para la comunicación inalámbrica 6G. En las redes 6G, los dispositivos no solo transmitirán audio: entenderán los sonidos y el significado del habla y los intercambiarán. Phonetic Script es una parte de ese objetivo: una forma escrita precisa de los sonidos del habla, que pueden leer tanto las personas como las máquinas, en todos los idiomas y dialectos.
+
 ## Muchas formas de hablar no tienen letras propias
 
 - **India.** Se hablan miles de lenguas maternas. Lenguas como el gondi, el bhili o el kurukh,
