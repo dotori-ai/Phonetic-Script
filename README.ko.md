@@ -4,7 +4,7 @@
 
 **훈민정음의 뜻을, 세계의 말소리로.**
 
-> 나랏말ᄊᆞ미 듕귁에 달아 문ᄍᆞᆼ와로 서르 ᄉᆞᄆᆞᆺ디 아니ᄒᆞᆯᄊᆡ
+> <picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/hunminjeongeum-preface-dark.png"><img src="assets/img/hunminjeongeum-preface-light.png" alt="훈민정음 언해본 서문 첫 줄: 나랏말싸미 듕귁에 달아 문짜와로 서르 사맛디 아니할쌔" width="550"></picture>
 >
 > 나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로, 어리석은 백성이 말하고자 하는 바가
 > 있어도 마침내 제 뜻을 펴지 못하는 사람이 많다. 내가 이를 불쌍히 여겨 새로 스물여덟 글자를
