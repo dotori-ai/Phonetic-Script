@@ -1,3 +1,5 @@
+**English** · [한국어](README.ko.md) · [Español](README.es.md) · [中文](README.zh.md)
+
 # Phonetic Script
 
 **Write how the world sounds.**
@@ -9,7 +11,7 @@ one small mark is added to a familiar letter. Because it is written from what a
 speaker actually *said*, two dialects of the same language come out differently, and
 that difference is the dialect, written down.
 
-**▶ Live site: <https://dotori-ai.github.io/Phonetic-Script/>**  ·  [한국어](https://dotori-ai.github.io/Phonetic-Script/ko/) · [Español](https://dotori-ai.github.io/Phonetic-Script/es/) · [中文](https://dotori-ai.github.io/Phonetic-Script/zh/)
+**▶ Live site: <https://dotori-ai.github.io/Phonetic-Script/>**
 
 The new letters are drawn by the project's own font. GitHub's file view doesn't have
 it, so open the live site to see every letter. The tables below use only standard
@@ -52,11 +54,11 @@ letters (*things*, *of*, *for*, *into*, *station*).
 
 | Word | Language | Standard Hangul | Phonetic Script (composition) | IPA |
 |---|---|---|---|---|
-| coffee | English | 카피 | ˈ[ㅋ+ㅏ][ㅍ'+ㅣ] | kʰˈɑːfi |
-| think | English | 띵크 | [ㅌㅎ+ㅣ+ㅇ]크 | θɪŋk |
-| pero / perro | Spanish | 페로 / 페로 | 페로 / 페[ㄹ-+ㅗ] | peɾo / pero |
-| jamón | Spanish | 하몬 | [ㄱ'+ㅏ]몬 | xamon |
-| 妈 / 马 | Mandarin | 마 / 마 | [ㅁ+ㅏ̄] / [ㅁ+ㅏ̌] | ma˥ / ma˨˩˦ |
+| coffee | English | 카피 | `ˈ[ㅋ+ㅏ][ㅍ'+ㅣ]` | kʰˈɑːfi |
+| think | English | 띵크 | `[ㅌㅎ+ㅣ+ㅇ]크` | θɪŋk |
+| pero / perro | Spanish | 페로 / 페로 | 페로 / `페[ㄹ-+ㅗ]` | peɾo / pero |
+| jamón | Spanish | 하몬 | `[ㄱ'+ㅏ]몬` | xamon |
+| 妈 / 马 | Mandarin | 마 / 마 | `[ㅁ+ㅏˉ]` / `[ㅁ+ㅏˇ]` | ma˥ / ma˨˩˦ |
 
 Standard Hangul writes *pero* ("but") and *perro* ("dog") the same way, and all four
 Mandarin *ma* the same way. Phonetic Script keeps them apart.
