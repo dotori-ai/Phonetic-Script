@@ -30,7 +30,7 @@ not include your work in those commercial licenses.
 
 ## 3. What stays open
 
-- Language packs and EK chart contributions are also published under CC BY 4.0, and
+- Language packs and chart contributions are also published under CC BY 4.0, and
   you are credited by name in the pack.
 - Font contributions are published under the SIL Open Font License 1.1.
 - Code contributions are published under the project's source-available license (see

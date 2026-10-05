@@ -1,6 +1,6 @@
 # Patents
 
-Patent applications are pending on the Extended Korean (EK) language-model and
+Patent applications are pending on the Phonetic Script language-model and
 voice-native language-model (VNLM) methods in this repository.
 
 | Application | Office | Filed | Status |
@@ -11,8 +11,8 @@ voice-native language-model (VNLM) methods in this repository.
 
 **Encoding pledge (draft, to be published on launch day).** The Licensor will not
 assert any patent against anyone for writing, displaying, encoding, inputting, sorting
-or teaching Extended Korean letters and notation, including fonts, keyboards, input
-methods, converters between EK text and other scripts, and Unicode implementations.
+or teaching Phonetic Script letters and notation, including fonts, keyboards, input
+methods, converters between Phonetic Script text and other scripts, and Unicode implementations.
 This pledge is irrevocable, royalty-free and worldwide. It exists so that the writing
 system can become a shared standard.
 
@@ -24,7 +24,7 @@ purposes.
 ## What needs a license
 
 Commercial use of the patented language-model and voice methods: training, running or
-serving language, speech-recognition or speech-synthesis models that use EK as their
+serving language, speech-recognition or speech-synthesis models that use Phonetic Script as their
 internal representation, and the VNLM architecture. This applies whether or not you use
 this repository's code. See [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md).
 

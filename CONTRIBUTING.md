@@ -1,6 +1,6 @@
 # Contributing
 
-Extended Korean (EK) aims to write every language's sounds in one Hangul-based script.
+Phonetic Script aims to write every language's and every dialect's sounds in one script.
 It needs linguists, native speakers, type designers and engineers from every language
 community. The current focus is **English (including American dialects), Spanish and
 Korean**.
@@ -14,17 +14,11 @@ Korean**.
 
 ## Ways to contribute
 
-### Fix how a word is written
+### Report how a word is really pronounced
 
-1. Open the [word editor](editor/), or a Synced Lyrics example under
-   [examples/](examples/).
-2. In the editor, type the spelling you hear, in standard Hangul or block notation like
-   `[ㅋ+ㅓ+ㄹ]`, then press **Export**. On an example page, use **✎ Review**: click a
-   word while it plays, write what you hear, then export.
-3. Open an issue, attach the exported JSON, and say which language and dialect you
-   speak.
-
-Maintainers merge accepted spellings into the project lexicon and regenerate the pages.
+Open an issue with the word, your language and dialect, how you pronounce it (in IPA if
+you can, or a short recording), and how that differs from the standard pronunciation.
+Maintainers add accepted pronunciations to the project lexicon.
 
 ### Record your dialect
 
@@ -42,7 +36,7 @@ sample of five words.
 
 ### Type design
 
-The EK font is built on Noto Sans KR under the SIL Open Font License 1.1. Glyph
+The project font is released under the SIL Open Font License 1.1. Glyph
 feedback is welcome in issues; please include a screenshot.
 
 ## Commercial questions

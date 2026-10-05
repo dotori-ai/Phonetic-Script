@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Phonetic Script</title>
-<meta name="description" content="One Hangul-based writing system that records how every language sounds.">
+<meta name="description" content="One writing system that records how every language and dialect actually sounds.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -13,37 +13,36 @@
 <nav class="top"><a class="brand" href="">Phonetic Script</a><a href="" hreflang="en" aria-current="page">English</a><a href="ko/" hreflang="ko">한국어</a><a href="es/" hreflang="es">Español</a><a href="zh/" hreflang="zh">中文</a><a class="nav-support" href="#support">Support</a></nav>
 
 <h1>Write how the world sounds.</h1>
-<p class="lede">Phonetic Script is a single writing system, built on Hangul, that records how any language is actually pronounced. Sounds Hangul already has are written as they are. For the ones it doesn't (<i>f</i>, <i>v</i>, <i>th</i>, the Spanish trilled <i>rr</i>, Mandarin tones), one small mark is added to a familiar letter.</p>
-<div class="hero ek">플리즈 칼 스󱇈라 애스크 허 투 브링 디즈 󱆤즈 위󱆥 허 󰒆럼</div>
-<p class="caption">“Please call Stella. Ask her to bring these things with her from…”, as read by a speaker from Carthage, Texas</p>
+<p class="lede">Phonetic Script is one writing system for the sounds of every language. It doesn't spell a word the way a dictionary says it should sound. It writes what a speaker actually <i>said</i>, so every dialect, accent and nuance appears on the page: vowel quality, length, tone, stress and pitch accent.</p>
+<div class="hero mono">pʰl̥iːz̥ kʰɑl stɛ̝lʌ æsk hɝ tʰŭ bɹĩŋ ðiz …</div>
+<p class="caption">“Please call Stella. Ask her to bring these things…”, as said by a speaker from Carthage, Texas (IPA)</p>
 
-<h2>One script, many languages</h2>
-<div class="table-wrap"><table><thead><tr><th>Word</th><th>Language</th><th>Phonetic Script</th><th>IPA</th></tr></thead><tbody><tr><td>coffee</td><td>English</td><td class="ek">󱇐󱇑</td><td class="mono">kʰˈɑːfi</td></tr><tr><td>think</td><td>English</td><td class="ek">󱆤크</td><td class="mono">θɪŋkʰɯ</td></tr><tr><td>video</td><td>English</td><td class="ek">󱇒디오</td><td class="mono">vˈɪdioʊ</td></tr><tr><td>perro</td><td>Spanish</td><td class="ek">페󰒭</td><td class="mono">pʰero</td></tr><tr><td>jamón</td><td>Spanish</td><td class="ek">󱇕몬</td><td class="mono">xamon</td></tr><tr><td>niño</td><td>Spanish</td><td class="ek">니󱇖</td><td class="mono">niɲo</td></tr><tr><td>妈 mā</td><td>Mandarin</td><td class="ek">󰂾</td><td class="mono">ma</td></tr><tr><td>马 mǎ</td><td>Mandarin</td><td class="ek">󰀥</td><td class="mono">ma</td></tr><tr><td>한글</td><td>Korean</td><td class="ek">한글</td><td class="mono">hankɯl</td></tr></tbody></table></div>
+<h2>Why: pronunciation carries more than words</h2>
+<p>While training AI language models, we found that people differ far more in <i>how they pronounce</i> than in <i>which words they use</i>. Two speakers can say the same sentence word for word and still sound like they come from different places. An AI that only reads spelling misses that. To understand dialects, accents and nuance, an AI has to understand sound, and it needs a script that writes sound.</p>
+<p>Many ways of speaking have no letters of their own. In India, thousands of mother tongues are spoken, and languages such as Gondi, Bhili and Kurukh, each with millions of speakers, are mostly spoken rather than written. In China, Cantonese, Hokkien, Wu and Hakka are written with Mandarin characters that record meaning, not sound, and minority languages such as Tujia and Gelao have no traditional writing system at all. Without writing, records, schooling and communication across distance are hard.</p>
+
+<h2>The nuance ordinary spelling loses</h2>
+<div class="table-wrap"><table><thead><tr><th>What differs</th><th>Word</th><th>IPA</th></tr></thead><tbody><tr><td>Spanish tap vs trill (“but” vs “dog”)</td><td>pero / perro</td><td class="mono">ˈpeɾo / ˈpero</td></tr><tr><td>Spain vs Latin America</td><td>gracias</td><td class="mono">ˈɡɾaθjas / ˈɡɾasjas</td></tr><tr><td>English <i>sh</i> vs <i>s</i></td><td>she / see</td><td class="mono">ʃiː / siː</td></tr><tr><td>English <i>f</i> and <i>th</i></td><td>coffee · think</td><td class="mono">ˈkɑfi · θɪŋk</td></tr><tr><td>Mandarin tone (“mother” vs “horse”)</td><td>妈 / 马</td><td class="mono">ma˥ / ma˨˩˦</td></tr></tbody></table></div>
+
+<h2>Same paragraph, two American voices</h2>
+<p class="lede">Both speakers read the same text. These are the words where what they actually said differs. That difference is the dialect, written down.</p>
+<div class="table-wrap"><table><thead><tr><th>Word</th><th>Texas</th><th>General American</th><th>What differs</th></tr></thead><tbody><tr><td>call</td><td class="mono">kʰɑl</td><td class="mono">kʰɑlˠ</td><td>dark <i>l</i> in Ohio</td></tr><tr><td>to</td><td class="mono">tʰŭ</td><td class="mono">ɾə</td><td>Ohio flaps the <i>t</i></td></tr><tr><td>things</td><td class="mono">θĩŋz</td><td class="mono">s̪ɪ̃ŋz̥</td><td></td></tr><tr><td>of</td><td class="mono">ʌv̥</td><td class="mono">əf</td><td></td></tr><tr><td>snow</td><td class="mono">snoʊ</td><td class="mono">ʃnoʊ</td><td>Ohio says <i>sh</i></td></tr><tr><td>and</td><td class="mono">ænd</td><td class="mono">ə̃n</td><td></td></tr><tr><td>for</td><td class="mono">fɔɹ</td><td class="mono">fɚ</td><td></td></tr><tr><td>and</td><td class="mono">æːnd</td><td class="mono">ə̃n</td><td></td></tr><tr><td>can</td><td class="mono">kʰɛ̃n</td><td class="mono">kʰə̃n</td><td>Texas <i>e</i>, Ohio reduced</td></tr><tr><td>these</td><td class="mono">ðiz</td><td class="mono">ðis</td><td>voiced vs voiceless <i>s</i></td></tr><tr><td>into</td><td class="mono">ɪnɾə</td><td class="mono">ɪ̃ntə</td><td></td></tr><tr><td>and</td><td class="mono">æ̃n</td><td class="mono">ɛ̃n</td><td></td></tr><tr><td>station</td><td class="mono">stẽɪʃɪn</td><td class="mono">steɪʃə̃n</td><td></td></tr></tbody></table></div>
 
 <h2>Read in your language</h2>
 <div class="grid">
-<a class="card" href="ko/"><h3>한국어</h3><p>옛한글에서 이어지는 새 글자의 구조</p></a>
-<a class="card" href="es/"><h3>Español</h3><p>La r, la rr, la j y la ñ, y el español de España y de América</p></a>
-<a class="card" href="zh/"><h3>中文</h3><p>用字母上方的位置标记声调</p></a>
+<a class="card" href="ko/"><h3>한국어</h3><p>훈민정음의 뜻을 세계의 말소리로</p></a>
+<a class="card" href="es/"><h3>Español</h3><p>La pronunciación, los dialectos y las variedades del español</p></a>
+<a class="card" href="zh/"><h3>中文</h3><p>声调、方言和没有文字的语言</p></a>
 </div>
-
-<h2>Try it</h2>
-<div class="grid"><a class="card" href="editor/"><h3>Word editor</h3><p>Look up how any English or Spanish word is written, type the spelling you hear, and export it for review.</p></a><a class="card" href="examples/texas/"><h3>Texas English</h3><p>Carthage, Texas · human recording</p><div class="ek sample">플리즈 칼 스󱇈라 애스크 허 투 …</div></a><a class="card" href="examples/general-american/"><h3>General American</h3><p>Delaware, Ohio · human recording</p><div class="ek sample">플리즈 컬 스󱇈라 애스크 허 러 …</div></a><a class="card" href="examples/spanish/"><h3>Spanish · Español</h3><p>King Sejong passage · synthetic voice</p><div class="ek sample">엘 󰒥이 세종 엘 그란데 󱆡에 …</div></a></div>
-
-<h2>Same paragraph, two American voices</h2>
-<p class="lede">Both speakers read the same text. Each line is written from what that speaker actually said, so the words that differ are the dialect, written down.</p>
-<div class="table-wrap"><table><thead><tr><th>Word</th><th>Texas</th><th>General American</th><th>Texas IPA</th><th>General American IPA</th></tr></thead><tbody><tr><td>call</td><td class="ek">칼</td><td class="ek">컬</td><td class="mono">kʰɑl</td><td class="mono">kʰɑlˠ</td></tr><tr><td>to</td><td class="ek">투</td><td class="ek">러</td><td class="mono">tʰŭ</td><td class="mono">ɾə</td></tr><tr><td>things</td><td class="ek">󱆤즈</td><td class="ek">싱즈</td><td class="mono">θĩŋz</td><td class="mono">s̪ɪ̃ŋz̥</td></tr><tr><td>of</td><td class="ek">어󰓖</td><td class="ek">어󰒆</td><td class="mono">ʌv̥</td><td class="mono">əf</td></tr><tr><td>snow</td><td class="ek">스노</td><td class="ek">쉬노</td><td class="mono">snoʊ</td><td class="mono">ʃnoʊ</td></tr><tr><td>and</td><td class="ek">앤드</td><td class="ek">언</td><td class="mono">ænd</td><td class="mono">ə̃n</td></tr><tr><td>for</td><td class="ek">󰕒</td><td class="ek">󱆧</td><td class="mono">fɔɹ</td><td class="mono">fɚ</td></tr><tr><td>and</td><td class="ek">앤드</td><td class="ek">언</td><td class="mono">æːnd</td><td class="mono">ə̃n</td></tr><tr><td>can</td><td class="ek">켄</td><td class="ek">컨</td><td class="mono">kʰɛ̃n</td><td class="mono">kʰə̃n</td></tr><tr><td>these</td><td class="ek">디즈</td><td class="ek">디스</td><td class="mono">ðiz</td><td class="mono">ðis</td></tr><tr><td>into</td><td class="ek">󱇎러</td><td class="ek">󱇎터</td><td class="mono">ɪnɾə</td><td class="mono">ɪ̃ntə</td></tr><tr><td>and</td><td class="ek">앤</td><td class="ek">엔</td><td class="mono">æ̃n</td><td class="mono">ɛ̃n</td></tr><tr><td>station</td><td class="ek">스󱇂이쉰</td><td class="ek">스󱇂이션</td><td class="mono">stẽɪʃɪn</td><td class="mono">steɪʃə̃n</td></tr></tbody></table></div>
 
 <h2 id="support">Support the project</h2>
 <div class="support">
-<p class="lede">Phonetic Script is built by linguists, native speakers and type designers. Your support pays them, and pays for recordings made with each speaker's consent. Supporters see every result before public release.</p>
-<div class="tiers"><div class="tier"><div class="amount">$5 / month · or $25 once</div><p>Early access to every result, quarterly reports, your name on the supporter list</p></div><div class="tier"><div class="amount">$15 / month · or $75 once</div><p>+ comment on language drafts, monthly online call</p></div><div class="tier"><div class="amount">$40 / month · or $250 once</div><p>+ your name in one language's documentation</p></div><div class="tier"><div class="amount">$750+ once</div><p>+ sponsor credit on a pilot for a language with no writing system (agreed with the speaker community)</p></div></div>
-<ul class="promises"><li>No fixed goal: the work grows with what we receive</li><li>Every expense is recorded in a public ledger</li><li>Funds pay for project work only: linguists, speakers, fonts, servers</li><li>Quarterly report to all supporters</li></ul>
+<p class="lede">Phonetic Script is built by linguists, native speakers and type designers, and gives a written form to languages that have never had one. Your support makes that work possible.</p>
 <div class="buttons" data-support-links="en"></div>
-<p class="note">Organizations and companies: write to licensing@dotori.ai about sponsorship or a commercial license.</p>
+<p class="note">Organizations and companies: licensing@dotori.ai</p>
 </div>
 
-<footer>Code is free for research, teaching and personal use. Commercial use needs a license from dotori.ai (<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/LICENSES.md">licenses</a>). English recordings: Speech Accent Archive, George Mason University (CC BY-NC-SA). Spanish voice: Meta MMS-TTS (CC BY-NC 4.0). Font based on Noto Sans KR (SIL OFL 1.1). Patents pending. © 2026 dotori.ai</footer>
+<footer>Free for research, teaching and personal use. Commercial use needs a license from dotori.ai (<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/LICENSES.md">licenses</a>). Patents pending. © 2026 dotori.ai</footer>
 </main>
 <script src="assets/site.js"></script>
 </body>

@@ -7,14 +7,21 @@
 Phonetic Script is one writing system for the sounds of every language. It doesn't
 spell a word the way a dictionary says it should sound. It writes what a speaker
 actually *said*: a Texan's vowel, an Andalusian's dropped *s*, a Cantonese tone, a
-village pronunciation that no spelling has ever recorded. Each sound has a letter, and
-each nuance has a fixed mark: length, vowel quality, tone, stress, pitch accent. So two
-dialects of the same language come out differently, and that difference is the dialect,
-written down.
+village pronunciation that no spelling has ever recorded, down to vowel quality, length,
+tone, stress and pitch accent. So two dialects of the same language come out differently,
+and that difference is the dialect, written down.
 
 **▶ Live site: <https://dotori-ai.github.io/Phonetic-Script/>**
 
-## Why: many ways of speaking have no letters of their own
+## Why: pronunciation carries more than words
+
+While training AI language models, we found that people differ far more in *how they
+pronounce* than in *which words they use*. Two speakers can say the same sentence word for
+word and still sound like they come from different places. An AI that only reads
+spelling misses that. To understand dialects, accents and nuance, an AI has to understand
+sound, and it needs a script that writes sound.
+
+## Many ways of speaking have no letters of their own
 
 Most writing systems were made for one standard variety of one language. Everything
 else is left out, or squeezed into a spelling that hides how it actually sounds.
@@ -39,67 +46,50 @@ in every language, that a person can read and a computer can process.
 
 | Page | What it shows |
 |---|---|
-| [Main](https://dotori-ai.github.io/Phonetic-Script/) | English, Spanish, Mandarin and Korean words side by side, and two American dialects compared |
-| [한국어](https://dotori-ai.github.io/Phonetic-Script/ko/) | The script's 15th-century roots, and the structure of its letters |
-| [Español](https://dotori-ai.github.io/Phonetic-Script/es/) | *pero* vs *perro*, *j*, *ñ*, and Spain vs Latin America |
-| [中文](https://dotori-ai.github.io/Phonetic-Script/zh/) | Mandarin tones written on every syllable (妈 麻 马 骂) |
-| [Word editor](https://dotori-ai.github.io/Phonetic-Script/editor/) | 156 English and Spanish words with their spelling and IPA. Type the spelling you hear and export it for review. |
-| [Texas English](https://dotori-ai.github.io/Phonetic-Script/examples/texas/) | A speaker from Carthage, Texas, reading the "Please call Stella" paragraph. The script lights up in time with her voice. |
-| [General American](https://dotori-ai.github.io/Phonetic-Script/examples/general-american/) | The same paragraph read by a speaker from Delaware, Ohio |
-| [Spanish example](https://dotori-ai.github.io/Phonetic-Script/examples/spanish/) | A short passage about King Sejong, in a Latin American Spanish reading |
+| [Main](https://dotori-ai.github.io/Phonetic-Script/) | Why pronunciation matters, and two American dialects compared |
+| [한국어](https://dotori-ai.github.io/Phonetic-Script/ko/) | The project's purpose and background, in Korean |
+| [Español](https://dotori-ai.github.io/Phonetic-Script/es/) | Spanish sounds, and Spain vs Latin America |
+| [中文](https://dotori-ai.github.io/Phonetic-Script/zh/) | Tones, Chinese dialects, and languages with no writing system |
 
-The script is drawn by the project's own font. GitHub can't show it, so this page writes
-new letters by their parts in code style, like `[ㄹ-+ㅗ]` (a trilled *r* + *o*). Open the
-live site to see every letter.
+Every example on this page is written in IPA (the International Phonetic Alphabet).
 
 ## Example: one paragraph, two American dialects
 
-Both speakers read the identical text. Each page is written from a narrow phonetic
-transcription of that recording, not from a dictionary. A selection of the words where
+Both speakers read the identical text. The IPA is a narrow phonetic transcription of each
+recording, not a dictionary pronunciation. A selection of the words where
 the two speakers differ:
 
-| Word | Texas | General American | Texas IPA | General American IPA |
-|---|---|---|---|---|
-| call | 칼 | 컬 | kʰɑl | kʰɑlˠ |
-| to | 투 | 러 | tʰŭ | ɾə |
-| snow | 스노 | 쉬노 | snoʊ | ʃnoʊ |
-| and | 앤드 | 언 | ænd | ə̃n |
-| can | 켄 | 컨 | kʰɛ̃n | kʰə̃n |
-| these | 디즈 | 디스 | ðiz | ðis |
+| Word | Texas | General American | What differs |
+|---|---|---|---|
+| call | kʰɑl | kʰɑlˠ | dark *l* in Ohio |
+| to | tʰŭ | ɾə | Ohio flaps the *t* and reduces the vowel |
+| snow | snoʊ | ʃnoʊ | Ohio says *sh* |
+| and | ænd | ə̃n | Texas keeps the full vowel and the *d* |
+| can | kʰɛ̃n | kʰə̃n | Texas *e*, Ohio reduced *uh* |
+| these | ðiz | ðis | voiced vs voiceless final *s* |
 
 The Texas speaker keeps full vowels where the Ohio speaker reduces them (*can*, *and*).
-The Ohio speaker flaps the *t* in *to* and says *snow* with an *sh*. The live page lists
-all 13 differences. Compared with the dictionary, the Texas speaker differs in 11 of 69
+The Ohio speaker flaps the *t* in *to* and says *snow* with an *sh*. In all, 13 words
+differ. Compared with the dictionary, the Texas speaker differs in 11 of 69
 words. That list is the Texas dialect, written down.
 
 ## Example: the nuance ordinary spelling loses
 
-| What differs | Word | Phonetic Script | IPA |
-|---|---|---|---|
-| Spanish tap vs trill ("but" vs "dog") | pero / perro | 페로 / `페[ㄹ-+ㅗ]` | peɾo / pero |
-| Spain vs Latin America | gracias | `그라[ㅌㅎ+ㅣ]아스` / 그라시아스 | ɡɾaθias / ɡɾasias |
-| English *sh* vs *s* | she / see | 쉬 / 시 | ʃiː / siː |
-| English *f*, *th* | coffee · think | `ˈ[ㅋ+ㅏ][ㅍ'+ㅣ]` · `[ㅌㅎ+ㅣ+ㅇ]크` | kʰˈɑːfi · θɪŋk |
-| Mandarin tone ("mother" vs "horse") | 妈 / 马 | `[ㅁ+ㅏˉ]` / `[ㅁ+ㅏˇ]` | ma˥ / ma˨˩˦ |
+| What differs | Word | IPA |
+|---|---|---|
+| Spanish tap vs trill ("but" vs "dog") | pero / perro | ˈpeɾo / ˈpero |
+| Spain vs Latin America | gracias | ˈɡɾaθjas / ˈɡɾasjas |
+| English *sh* vs *s* | she / see | ʃiː / siː |
+| English *f* and *th* | coffee · think | ˈkɑfi · θɪŋk |
+| Mandarin tone ("mother" vs "horse") | 妈 / 马 | ma˥ / ma˨˩˦ |
 
-The rule behind every letter: **one base letter + one mark = one new letter**, and each
-kind of mark has one fixed place. Consonant changes go on top, vowel quality on the left,
-length on the right, and tone, stress and pitch accent above the syllable. Every letter
-records the same six fields, so what a reader sees and what a computer reads are always
-the same.
+Ordinary spelling merges many of these: one spelling for two dialects, or one letter for
+two sounds. Phonetic Script gives each its own written form.
 
-## How the examples were made
+## Sources
 
-- **English audio:** [Speech Accent Archive](https://accent.gmu.edu/), George Mason
-  University: speakers *english9* (Texas) and *english162* (Ohio), with the archive's
-  narrow IPA transcriptions. CC BY-NC-SA.
-- **Spanish audio:** synthetic, generated locally with Meta's
-  [MMS-TTS](https://huggingface.co/facebook/mms-tts-spa) (CC BY-NC 4.0). It will be
-  replaced with a human recording; volunteers are welcome.
-- **Timing:** forced alignment with wav2vec2. **Spelling:** the project's pronunciation
-  engine. One General American word was corrected by ear.
-- Each example folder has an `alignment.json` with every word's timing, spelling and
-  (for English) IPA.
+English recordings and their narrow IPA transcriptions: [Speech Accent Archive](https://accent.gmu.edu/),
+George Mason University, speakers *english9* (Texas) and *english162* (Ohio). CC BY-NC-SA.
 
 ## Contribute
 
@@ -112,21 +102,20 @@ speaker's consent, and each community decides how its work is published. See
 
 ## Support
 
-The script is built by linguists, native speakers and type designers. Support pays
-them, and pays for consented recordings. It funds pilots for languages that have never
-had a written form. Supporters see every result before public release, and every expense
-goes into a public ledger. Support levels are on the
-[live site](https://dotori-ai.github.io/Phonetic-Script/#support). Organizations:
-licensing@dotori.ai.
+Phonetic Script is built by linguists, native speakers and type designers, and gives a
+written form to languages that have never had one.
+
+**▶ [Support the project](https://dotori-ai.github.io/Phonetic-Script/#support)**
+
+Organizations and companies: licensing@dotori.ai
 
 ## License
 
 **Source-available. Commercial use needs approval from dotori.ai.**
 
-- **Code (pages and editor):** [PolyForm Noncommercial 1.0.0](LICENSE). Free for research,
+- **Code:** [PolyForm Noncommercial 1.0.0](LICENSE). Free for research,
   teaching and personal use.
-- **Spellings and word data:** CC BY 4.0. **Font:** [SIL OFL 1.1](fonts/OFL.txt).
-- **Audio:** the source's own license (see above).
+- **Data:** CC BY 4.0. **Audio:** the source's own license.
 - **Commercial use** of the code, the models or the patented methods: see
   [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) and [PATENTS.md](PATENTS.md), or write
   to licensing@dotori.ai.

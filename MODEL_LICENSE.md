@@ -11,7 +11,7 @@ including dotori.ai once it is incorporated.
 
 **Model** means the model weights, checkpoints, tokenizers, codebooks, configuration
 files and model cards that the Licensor releases under this license, including VNLM-1,
-the Extended Korean language models and the voice codec.
+the Phonetic Script language models and the voice codec.
 
 **Derivative** means any model or artifact made from the Model, including fine-tunes,
 adapters, quantizations, merges, pruned or distilled models, and any model trained

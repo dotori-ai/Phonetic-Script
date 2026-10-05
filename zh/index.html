@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Phonetic Script · 中文</title>
-<meta name="description" content="以韩文字母为基础、按实际发音记录各种语言的书写系统，可在字上标出声调。">
+<meta name="description" content="按实际发音记录各种语言和方言的书写系统，包括声调和没有文字的语言。">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/site.css">
 </head>
@@ -13,33 +13,31 @@
 <nav class="top"><a class="brand" href="../">Phonetic Script</a><a href="../" hreflang="en">English</a><a href="../ko/" hreflang="ko">한국어</a><a href="../es/" hreflang="es">Español</a><a href="../zh/" hreflang="zh" aria-current="page">中文</a><a class="nav-support" href="#support">支持</a></nav>
 
 <h1>用一种文字，记录世界的语音</h1>
-<p class="lede">Phonetic Script 是一套以韩文字母（谚文）为基础的书写系统，按照实际发音记录任何语言。谚文里已有的音照常书写；没有的音，例如 f、v、th、西班牙语的颤音，以及汉语的声调，就在熟悉的字母上加一个小记号。</p>
+<p class="lede">Phonetic Script 是一套为所有语言的声音设计的书写系统。它不按照字典上“应该”的读音来写，而是记录说话人实际说出的声音，让每一种方言、口音和细微差别都能写下来。</p>
 
-<h2>声调写在字上</h2>
-<p class="lede">汉语的 ma 因声调不同而有四种意思。标准韩文都写成“마”，而 Phonetic Script 把声调写在每个音节上方的固定位置，就像拼音的声调符号一样。</p>
-<div class="table-wrap"><table><thead><tr><th>汉字</th><th>拼音</th><th>Phonetic Script</th><th>结构</th><th>声调</th></tr></thead><tbody><tr><td>妈</td><td>mā</td><td class="ek">󰂾</td><td class="nota">[ㅁ+ㅏˉ]</td><td>第一声 · 高平</td></tr><tr><td>麻</td><td>má</td><td class="ek">󰉙</td><td class="nota">[ㅁ+ㅏˊ]</td><td>第二声 · 上升</td></tr><tr><td>马</td><td>mǎ</td><td class="ek">󰀥</td><td class="nota">[ㅁ+ㅏˇ]</td><td>第三声 · 降升</td></tr><tr><td>骂</td><td>mà</td><td class="ek">󰈤</td><td class="nota">[ㅁ+ㅏˋ]</td><td>第四声 · 下降</td></tr></tbody></table></div>
+<h2>为什么：发音比词语承载更多</h2>
+<p>在训练 AI 语言模型的过程中，我们发现人与人之间的差异更多体现在<i>怎么发音</i>，而不是<i>用哪些词</i>。两个人可以逐字说出同一句话，听起来却来自完全不同的地方。只读拼写的 AI 会错过这些差异。要让 AI 听懂方言、口音和语气的细微差别，AI 必须理解声音，也需要一种能把声音写下来的文字。</p>
+<p>许多说话方式没有属于自己的文字。在中国，粤语、闽南语、吴语、客家话通常用与普通话相同的汉字书写，而汉字记录的是意义而不是读音，所以声调和许多日常词语无法写下来；土家语、仡佬语等少数民族语言甚至没有传统文字。在印度，数千种母语中，像贡德语、比尔语、库鲁克语这样各有数百万使用者的语言，大多也只靠口耳相传。没有文字，记录、教育和远距离交流都很困难。</p>
+
+<h2>声调：同一个音节，四种意思</h2>
+<p class="lede">汉字记录意义，而 Phonetic Script 记录声音，包括每个音节的声调（下表用 IPA 表示）。</p>
+<div class="table-wrap"><table><thead><tr><th>汉字</th><th>拼音</th><th>IPA</th><th>声调</th></tr></thead><tbody><tr><td>妈</td><td>mā</td><td class="mono">ma˥</td><td>第一声 · 高平</td></tr><tr><td>麻</td><td>má</td><td class="mono">ma˧˥</td><td>第二声 · 上升</td></tr><tr><td>马</td><td>mǎ</td><td class="mono">ma˨˩˦</td><td>第三声 · 降升</td></tr><tr><td>骂</td><td>mà</td><td class="mono">ma˥˩</td><td>第四声 · 下降</td></tr></tbody></table></div>
 
 <h2>例词</h2>
-<p class="lede">每个音节由声母、韵母、韵尾和声调组成。结构一栏用方括号写出每个音节的组成部分。</p>
-<div class="table-wrap"><table><thead><tr><th>汉字</th><th>拼音</th><th>Phonetic Script</th><th>结构</th><th>IPA</th></tr></thead><tbody><tr><td>你好</td><td>nǐ hǎo</td><td class="ek">󱇛󰂼오</td><td class="nota">[ㄴ+ㅣˇ][ㅎ+ㅏˇ]오</td><td class="mono">ni hao</td></tr><tr><td>中国</td><td>zhōng guó</td><td class="ek">󱆩󰁜</td><td class="nota">[ㅈ+ㅜˉ+ㅇ][ㄱ+ㅝˊ]</td><td class="mono">ʈʂʊŋ kwo</td></tr><tr><td>汉字</td><td>hàn zì</td><td class="ek">󰀢󱆭</td><td class="nota">[ㅎ+ㅏˋ+ㄴ][ㅈ+ㅣˋ]</td><td class="mono">han tsi</td></tr><tr><td>学生</td><td>xué shēng</td><td class="ek">󱆵에󱇜</td><td class="nota">[ㅈ&#x27;+ㅠˊ]에[ㅅ-+ㅓˉ+ㅇ]</td><td class="mono">ɕɥɛ ʂəŋ</td></tr></tbody></table></div>
-<p class="note">中文支持目前仍处于早期阶段：轻声和变调尚未完全处理，暂时没有语音示例。</p>
-
-<h2>体验</h2>
-<div class="grid"><a class="card" href="../editor/"><h3>单词编辑器</h3><p>查看英语和西班牙语单词的写法，按照你听到的发音修改并提交审核。</p></a><a class="card" href="../examples/texas/"><h3>德州英语</h3><p>得克萨斯州卡西奇 · 真人录音</p><div class="ek sample">플리즈 칼 스󱇈라 애스크 허 투 …</div></a><a class="card" href="../examples/general-american/"><h3>美国通用英语</h3><p>俄亥俄州特拉华 · 真人录音</p><div class="ek sample">플리즈 컬 스󱇈라 애스크 허 러 …</div></a><a class="card" href="../examples/spanish/"><h3>西班牙语</h3><p>世宗大王的故事 · 合成语音</p><div class="ek sample">엘 󰒥이 세종 엘 그란데 󱆡에 …</div></a></div>
+<div class="table-wrap"><table><thead><tr><th>汉字</th><th>拼音</th><th>IPA</th></tr></thead><tbody><tr><td>你好</td><td>nǐ hǎo</td><td class="mono">ni˨˩˦ xau̯˨˩˦</td></tr><tr><td>中国</td><td>zhōng guó</td><td class="mono">ʈʂʊŋ˥ kuo˧˥</td></tr><tr><td>汉字</td><td>hàn zì</td><td class="mono">xan˥˩ tsɨ˥˩</td></tr><tr><td>学生</td><td>xué shēng</td><td class="mono">ɕɥɛ˧˥ ʂəŋ˥</td></tr><tr><td>谢谢</td><td>xièxie</td><td class="mono">ɕjɛ˥˩ ɕjɛ</td></tr></tbody></table></div>
+<p class="note">同样的方法也可以记录粤语的六个声调、闽南语的变调，以及没有文字的语言。中文支持目前仍处于早期阶段。</p>
 
 <h2>参与</h2>
-<p>我们正在招募汉语各方言的语言学家和母语者，包括普通话、粤语、闽南语、吴语、客家话等。请阅读<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/CONTRIBUTING.md">参与指南</a>，并在 GitHub 上创建标题为 “Linguist: 中文” 或 “Recording: 方言名称” 的 issue。</p>
+<p>我们正在招募汉语各方言和少数民族语言的语言学家和母语者，包括普通话、粤语、闽南语、吴语、客家话，以及没有文字的语言。请阅读<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/CONTRIBUTING.md">参与指南</a>，并在 GitHub 上创建标题为 “Linguist: 语言名称” 或 “Recording: 方言名称” 的 issue。</p>
 
 <h2 id="support">支持本项目</h2>
 <div class="support">
-<p class="lede">Phonetic Script 由语言学家、母语者和字体设计师共同完成。您的支持用于支付他们的工作，以及在说话人同意下进行的录音。支持者可以在公开发布之前看到每一项成果。</p>
-<div class="tiers"><div class="tier"><div class="amount">每月 5 美元 · 或一次性 25 美元</div><p>提前获得所有成果、季度报告、列入支持者名单</p></div><div class="tier"><div class="amount">每月 15 美元 · 或一次性 75 美元</div><p>+ 对各语言草稿提出意见，每月线上交流</p></div><div class="tier"><div class="amount">每月 40 美元 · 或一次性 250 美元</div><p>+ 在一种语言的文档中署名致谢</p></div><div class="tier"><div class="amount">一次性 750 美元以上</div><p>+ 在一个无文字语言试点项目中署名致谢（需征得语言社群同意）</p></div></div>
-<ul class="promises"><li>不设目标金额，工作量随支持增长</li><li>每笔支出都记录在公开账本中</li><li>资金只用于项目工作：语言学家、说话人、字体、服务器</li><li>每季度向支持者报告</li></ul>
+<p class="lede">Phonetic Script 由语言学家、母语者和字体设计师共同完成，为从未有过文字的语言提供书写形式。您的支持让这项工作成为可能。</p>
 <div class="buttons" data-support-links="zh"></div>
-<p class="note">机构或企业赞助、商业许可咨询：licensing@dotori.ai</p>
+<p class="note">机构或企业赞助咨询：licensing@dotori.ai</p>
 </div>
 
-<footer>研究、教学和个人使用免费；商业使用需获得 dotori.ai 的许可（<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/LICENSES.md">许可说明</a>）。字体基于 Noto Sans KR（SIL OFL 1.1）。专利申请中。© 2026 dotori.ai</footer>
+<footer>研究、教学和个人使用免费；商业使用需获得 dotori.ai 的许可（<a href="https://github.com/dotori-ai/Phonetic-Script/blob/main/LICENSES.md">许可说明</a>）。专利申请中。© 2026 dotori.ai</footer>
 </main>
 <script src="../assets/site.js"></script>
 </body>

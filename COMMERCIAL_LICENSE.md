@@ -13,7 +13,7 @@ The software in this repository is licensed under
 - Teaching, and any use by a school, university, public research institute, charity,
   public-health or public-safety organization, or government body.
 - Publishing papers, benchmarks and noncommercial demos built on the project.
-- Writing in Extended Korean, implementing the EK encoding, and using the EK charts,
+- Writing in Phonetic Script, implementing its encoding, and using its charts,
   language packs and fonts. These are open; see [LICENSES.md](LICENSES.md).
 
 ## Needs a commercial license
