@@ -171,9 +171,9 @@ Phonetic Script는 언어학자와 원어민 화자, 글꼴 디자이너가 함�
 - **코드 (페이지와 편집기):** [PolyForm Noncommercial 1.0.0](LICENSE). 연구·교육·개인 용도는 무료입니다.
 - **글자 표기와 단어 데이터:** CC BY 4.0. **글꼴:** [SIL OFL 1.1](fonts/OFL.txt).
 - **음성:** 각 출처의 라이선스를 따릅니다.
-- 코드, 모델, 특허 받은 방법을 **상업적으로** 쓰려면 [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md)와
-  [PATENTS.md](PATENTS.md)를 보시거나 licensing@dotori.ai로 연락해 주세요.
+- 코드와 모델을 **상업적으로** 쓰려면 [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md)를
+  보시거나 licensing@dotori.ai로 연락해 주세요.
 
-전체 목록은 [LICENSES.md](LICENSES.md)에 있습니다. 특허 출원 중.
+전체 목록은 [LICENSES.md](LICENSES.md)에 있습니다.
 
 © 2026 Kibaek Kim, doing business as dotori.ai

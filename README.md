@@ -120,10 +120,9 @@ Organizations and companies: licensing@dotori.ai
 - **Code:** [PolyForm Noncommercial 1.0.0](LICENSE). Free for research,
   teaching and personal use.
 - **Data:** CC BY 4.0. **Audio:** the source's own license.
-- **Commercial use** of the code, the models or the patented methods: see
-  [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) and [PATENTS.md](PATENTS.md), or write
-  to licensing@dotori.ai.
+- **Commercial use** of the code or the models: see
+  [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md), or write to licensing@dotori.ai.
 
-The full map is in [LICENSES.md](LICENSES.md). Patents pending.
+The full map is in [LICENSES.md](LICENSES.md).
 
 © 2026 Kibaek Kim, doing business as dotori.ai

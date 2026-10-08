@@ -74,9 +74,9 @@ Phonetic Script 由语言学家、母语者和字体设计师共同完成，为�
 
 - **代码：**[PolyForm Noncommercial 1.0.0](LICENSE)。研究、教学和个人使用免费。
 - **数据：**CC BY 4.0。**音频：**遵循各来源的许可。
-- 如需**商业使用**，请参阅 [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) 和 [PATENTS.md](PATENTS.md)，
+- 如需**商业使用**，请参阅 [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md)，
   或联系 licensing@dotori.ai。
 
-完整说明见 [LICENSES.md](LICENSES.md)（英文）。专利申请中。
+完整说明见 [LICENSES.md](LICENSES.md)（英文）。
 
 © 2026 Kibaek Kim, doing business as dotori.ai

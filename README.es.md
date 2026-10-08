@@ -85,9 +85,9 @@ Organizaciones y empresas: licensing@dotori.ai
 - **Código:** [PolyForm Noncommercial 1.0.0](LICENSE). Gratis para investigación, enseñanza y
   uso personal.
 - **Datos:** CC BY 4.0. **Audio:** la licencia de cada fuente.
-- Para **uso comercial**, consulta [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) y
-  [PATENTS.md](PATENTS.md), o escribe a licensing@dotori.ai.
+- Para **uso comercial**, consulta [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md), o
+  escribe a licensing@dotori.ai.
 
-El detalle completo está en [LICENSES.md](LICENSES.md) (en inglés). Patentes en trámite.
+El detalle completo está en [LICENSES.md](LICENSES.md) (en inglés).
 
 © 2026 Kibaek Kim, doing business as dotori.ai
